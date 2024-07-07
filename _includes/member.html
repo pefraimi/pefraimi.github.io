@@ -1,0 +1,36 @@
+<div class="member-box">
+    <div class="left-side-box">
+        <div class="image-wrap">
+            {% if include.image %}
+            <img src="{{ include.image }}" class="member-photo" alt="{{ include.name }}">
+            {% else %}
+            <i class="fa fa-user-circle member-icon"></i>
+            {% endif %}
+        </div>
+        {% if include.web %}
+        <a href="{{ include.web }}" target="_blank"><i class="fa-solid fa-earth-europe member-socials"></i></a>
+        {% endif %}
+        {% if include.linkedin %}
+        <a href="{{ include.linkedin }}" target="_blank"><i class="fa-brands fa-linkedin-in member-socials"></i></a>
+        {% endif %}
+        {% if include.github %}
+        <a href="{{ include.github }}" target="_blank"><i class="fa-brands fa-github member-socials"></i></a>
+        {% endif %}
+        {% if include.researchgate %}
+        <a href="{{ include.researchgate }}" target="_blank"><i class="fa-brands fa-researchgate member-socials"></i></a>
+        {% endif %}
+        {% if include.mail %}
+        <a href="mailto:{{ include.mail }}"><i class="fa fa-envelope member-socials"></i></a>
+        {% endif %}
+    </div>
+    <div class="right-side-box">
+        <div class="right-side">
+            <h3 class="name-wrap">{{ include.name }}</h3><i>, {{ include.title }}</i>
+        </div>
+        <div class="right-side">
+            <i class="fa fa-flask member-flask"></i>
+            <div class="interests-wrap">{{ include.interests }}</div>
+        </div>
+        <div class="bio-wrap">{{ include.bio }}<br></div>
+    </div>
+</div>

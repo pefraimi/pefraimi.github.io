@@ -1,0 +1,34 @@
+name: build
+
+on:
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      upload:
+        description: 'Whether to upload the resulting artifact'
+        type: boolean
+        required: true
+        default: false
+  pull_request:
+
+concurrency: build-${{ github.ref }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.1'
+    - name: Setup Pages
+      uses: actions/configure-pages@v2
+    - name: Make Build
+      env:
+        JEKYLL_ENV: production
+      run: make build
+    - name: Upload Artifact
+      if: ${{ inputs.upload }}
+      uses: actions/upload-pages-artifact@v1

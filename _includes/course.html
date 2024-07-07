@@ -1,0 +1,20 @@
+<h3 class="course-title">{{ include.title }}</h3>
+<div class="courses-box-content">
+    <p>{{ include.description }}</p>
+    <div class="course-more">
+      <div class="course-links">
+          {% if include.eclass %}
+          <a href="{{ include.eclass }}" target="_blank"><img class="course-links-image" src="/assets/courses/eclass-logo.svg"></a>
+          {% endif %}
+          {% if include.moodle %}
+          <a href="{{ include.moodle }}" target="_blank"><img class="course-links-image" src="/assets/courses/moodle-logo.svg"></a>
+          {% endif %}
+          {% if include.info %}
+          <a href="{{ include.info }}" target="_blank"><i class="fa-solid fa-circle-info course-info"></i></a>
+          {% endif %}
+      </div>
+      <div class="course-semester">
+          <span>{{ include.semester }}</span>
+      </div>
+    </div>
+</div>

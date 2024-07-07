@@ -1,0 +1,1115 @@
+@article{kostamis_2024,
+	title = {Data management in Ethereum DApps: A cost and performance analysis},
+	journal = {Future Generation Computer Systems},
+	volume = {153},
+	pages = {193--205},
+	year = {2024},
+	issn = {0167-739X},
+	doi = {10.1016/j.future.2023.11.026},
+	url = {https://www.sciencedirect.com/science/article/pii/S0167739X23004351},
+	author = {Periklis Kostamis and Andreas Sendros and Pavlos S. Efraimidis},
+	keywords = {Blockchain, Ethereum, Smart contracts, Data management, Gas, IPFS, Swarm},
+	abstract = {The cost of interacting with a blockchain and the time required to search and retrieve information from it are important factors in the design of Decentralized Applications (DApps). The corresponding approaches for data management in Ethereum vary from pure on-chain solutions to hybrid architectures. In this work, we thoroughly examine a wide range of data management methods, including unconventional ones, and evaluate them in terms of storage cost and retrieval latency while considering the impact of recent hard forks. More precisely, we elaborate on the use of Smart Contract (SC) storage as a data store for DApps and in view of the prohibitive cost inherent to this approach, we present and compare methods for low-cost data handling in Ethereum, namely the event-logs, the transaction payload, and the almost surprising exploitation of unused function arguments. In addition, we study hybrid schemes by using IPFS and Swarm as storage platforms and Ethereum as a timestamping proof mechanism. Such schemes are especially effective when large chunks of data have to be managed. The upload and retrieval performance of these platforms and the cost associated with storing (on-chain) the identifiers of the uploaded data are of utmost importance and therefore are investigated in detail.},
+	github={https://github.com/perikost/ExploringEthereum}
+}
+
+@article{perifanis_2023c,
+	title = {Federated learning for 5G base station traffic forecasting},
+	journal = {Computer Networks},
+	volume = {235},
+	pages = {109950},
+	year = {2023},
+	issn = {1389-1286},
+	doi = {10.1016/j.comnet.2023.109950},
+	url = {https://www.sciencedirect.com/science/article/pii/S138912862300395X},
+	author = {Vasileios Perifanis and Nikolaos Pavlidis and Remous-Aris Koutsiamanis and Pavlos S. Efraimidis},
+	keywords = {Data privacy, Federated learning, Mobile networks, Non-iid data, Traffic forecasting},
+	abstract = {Cellular traffic prediction is of great importance on the path of enabling 5G mobile networks to perform intelligent and efficient infrastructure planning and management. However, available data are limited to base station logging information. Hence, training methods for generating high-quality predictions that can generalize to new observations across diverse parties are in demand. Traditional approaches require collecting measurements from multiple base stations, transmitting them to a central entity and conducting machine learning operations using the acquire data. The dissemination of local observations raises concerns regarding confidentiality and performance, which impede the applicability of machine learning techniques. Although various distributed learning methods have been proposed to address this issue, their application to traffic prediction remains highly unexplored. In this work, we investigate the efficacy of federated learning applied to raw base station LTE data for time-series forecasting. We evaluate one-step predictions using five different neural network architectures trained with a federated setting on non-identically distributed data. Our results show that the learning architectures adapted to the federated setting yield equivalent prediction error to the centralized setting. In addition, preprocessing techniques on base stations enhance forecasting accuracy, while advanced federated aggregators do not surpass simpler approaches. Simulations considering the environmental impact suggest that federated learning holds the potential for reducing carbon emissions and energy consumption. Finally, we consider a large-scale scenario with synthetic data and demonstrate that federated learning reduces the computational and communication costs compared to centralized settings.}
+}
+
+@misc{pavlidis_2023,
+	title={Intelligent Client Selection for Federated Learning using Cellular Automata}, 
+	author={Nikolaos Pavlidis and Vasileios Perifanis and Theodoros Panagiotis Chatzinikolaou and Georgios Ch. Sirakoulis and Pavlos S. Efraimidis},
+	year={2023},
+	publisher = {arXiv},
+	doi = {10.48550/arXiv.2310.00627},
+	url = {https://arxiv.org/abs/2310.00627},
+	abstract={Federated Learning (FL) has emerged as a promising solution for privacy-enhancement and latency minimization in various real-world applications, such as transportation, communications, and healthcare. FL endeavors to bring Machine Learning (ML) down to the edge by harnessing data from million of devices and IoT sensors, thus enabling rapid responses to dynamic environments and yielding highly personalized results. However, the increased amount of sensors across diverse applications poses challenges in terms of communication and resource allocation, hindering the participation of all devices in the federated process and prompting the need for effective FL client selection. To address this issue, we propose Cellular Automaton-based Client Selection (CA-CS), a novel client selection algorithm, which leverages Cellular Automata (CA) as models to effectively capture spatio-temporal changes in a fast-evolving environment. CA-CS considers the computational resources and communication capacity of each participating client, while also accounting for inter-client interactions between neighbors during the client selection process, enabling intelligent client selection for online FL processes on data streams that closely resemble real-world scenarios. In this paper, we present a thorough evaluation of the proposed CA-CS algorithm using MNIST and CIFAR-10 datasets, while making a direct comparison against a uniformly random client selection scheme. Our results demonstrate that CA-CS achieves comparable accuracy to the random selection approach, while effectively avoiding high-latency clients.}
+}
+
+@misc{perifanis_2023b,
+	title={Towards Energy-Aware Federated Traffic Prediction for Cellular Networks}, 
+	author={Vasileios Perifanis and Nikolaos Pavlidis and Selim F. Yilmaz and Francesc Wilhelmi and Elia Guerra and Marco Miozzo and Pavlos S. Efraimidis and Paolo Dini and Remous-Aris Koutsiamanis},
+	year={2023},
+	publisher = {arXiv},
+	doi = {10.48550/arXiv.2309.10645},
+	url = {https://arxiv.org/abs/2309.10645},
+	abstract={Cellular traffic prediction is a crucial activity for optimizing networks in fifth-generation (5G) networks and beyond, as accurate forecasting is essential for intelligent network design, resource allocation and anomaly mitigation. Although machine learning (ML) is a promising approach to effectively predict network traffic, the centralization of massive data in a single data center raises issues regarding confidentiality, privacy and data transfer demands. To address these challenges, federated learning (FL) emerges as an appealing ML training framework which offers high accurate predictions through parallel distributed computations. However, the environmental impact of these methods is often overlooked, which calls into question their sustainability. In this paper, we address the trade-off between accuracy and energy consumption in FL by proposing a novel sustainability indicator that allows assessing the feasibility of ML models. Then, we comprehensively evaluate state-of-the-art deep learning (DL) architectures in a federated scenario using real-world measurements from base station (BS) sites in the area of Barcelona, Spain. Our findings indicate that larger ML models achieve marginally improved performance but have a significant environmental impact in terms of carbon footprint, which make them impractical for real-world applications.}
+}
+
+@misc{nikolaidis_2023,
+      title={Federated Learning for Early Dropout Prediction on Healthy Ageing Applications}, 
+      author={Christos Chrysanthos Nikolaidis and Vasileios Perifanis and Nikolaos Pavlidis and Pavlos S. Efraimidis},
+      year={2023},
+      publisher = {arXiv},
+      doi = {10.48550/arXiv.2309.04311},
+      url = {https://arxiv.org/abs/2309.04311},
+      abstract={The provision of social care applications is crucial for elderly people to improve their quality of life and enables operators to provide early interventions. Accurate predictions of user dropouts in healthy ageing applications are essential since they are directly related to individual health statuses. Machine Learning (ML) algorithms have enabled highly accurate predictions, outperforming traditional statistical methods that struggle to cope with individual patterns. However, ML requires a substantial amount of data for training, which is challenging due to the presence of personal identifiable information (PII) and the fragmentation posed by regulations. In this paper, we present a federated machine learning (FML) approach that minimizes privacy concerns and enables distributed training, without transferring individual data. We employ collaborative training by considering individuals and organizations under FML, which models both cross-device and cross-silo learning scenarios. Our approach is evaluated on a real-world dataset with non-independent and identically distributed (non-iid) data among clients, class imbalance and label ambiguity. Our results show that data selection and class imbalance handling techniques significantly improve the predictive accuracy of models trained under FML, demonstrating comparable or superior predictive performance than traditional ML models.}
+}
+
+@misc{perifanis_2023a,
+	title={Predicting Early Dropouts of an Active and Healthy Ageing App}, 
+	author={Vasileios Perifanis and Ioanna Michailidi and Giorgos Stamatelatos and George Drosatos and Pavlos S. Efraimidis},
+	year={2023},
+	publisher = {arXiv},
+	doi = {10.48550/arXiv.2308.00539},
+	url = {https://arxiv.org/abs/2308.00539},
+	abstract={In this work, we present a machine learning approach for predicting early dropouts of an active and healthy ageing app. The presented algorithms have been submitted to the IFMBE Scientific Challenge 2022, part of IUPESM WC 2022. We have processed the given database and generated seven datasets. We used pre-processing techniques to construct classification models that predict the adherence of users using dynamic and static features. We submitted 11 official runs and our results show that machine learning algorithms can provide high-quality adherence predictions. Based on the results, the dynamic features positively influence a model's classification performance. Due to the imbalanced nature of the dataset, we employed oversampling methods such as SMOTE and ADASYN to improve the classification performance. The oversampling approaches led to a remarkable improvement of 10\%. Our methods won first place in the IFMBE Scientific Challenge 2022.}
+}
+
+@article{perifanis_2022c,
+	title = {FedPOIRec: Privacy-preserving federated poi recommendation with social influence},
+	journal = {Information Sciences},
+	volume = {623},
+	pages = {767-790},
+	year = {2023},
+	issn = {0020-0255},
+	doi = {10.1016/j.ins.2022.12.024},
+	url = {https://www.sciencedirect.com/science/article/pii/S0020025522015171},
+	author = {Vasileios Perifanis and George Drosatos and Giorgos Stamatelatos and Pavlos S. Efraimidis},
+	keywords = {Federated learning, Privacy, POI recommendation, Fully homomorphic encryption, Social network},
+	abstract = {With the growing number of Location-Based Social Networks, privacy-preserving point-of-interest (POI) recommendation has become a critical challenge when helping users discover potentially interesting new places. Traditional systems take a centralized approach that requires the transmission and collection of private user data. In this work, we present FedPOIRec, a privacy-preserving federated learning approach enhanced with features from user social circles to generate top-N POI recommendations. First, the FedPOIRec framework is built on the principle that local data never leave the owner’s device, while a parameter server blindly aggregates the local updates. Second, the local recommender results are personalized by allowing users to exchange their learned parameters, enabling knowledge transfer among friends. To this end, we propose a privacy-preserving protocol for integrating the preferences of the user’s friends, after the federated computation, by exploiting the properties of the Cheon-Kim-Kim-Song (CKKS) fully homomorphic encryption scheme. To evaluate FedPOIRec, we apply our approach to five real-world datasets using two recommendation models. Extensive experiments demonstrate that FedPOIRec achieves comparable recommendation quality to centralized approaches, while the social integration protocol incurs low computation and communication overhead on the user device.},
+	github={https://github.com/vperifan/FedPOIRec}
+}
+
+@inproceedings{zikos_2022,
+	title={HFabD+ M: A Web-based Platform for Automated Hyperledger Fabric Deployment and Management},
+	author={Zikos, Ioannis and Sendros, Andreas and Drosatos, George and Efraimidis, Pavlos S.},
+	booktitle={2022 IEEE 1st Global Emerging Technology Blockchain Forum: Blockchain & Beyond (iGETblockchain)}, 
+	title={HFabD+M: A Web-based Platform for Automated Hyperledger Fabric Deployment and Management}, 
+	year={2022},
+	volume={},
+	number={},
+	pages={1-6},
+	doi={10.1109/iGETblockchain56591.2022.10087061},
+	abstract = {Hyperledger Fabric is an open-source private permissioned blockchain that supports the use of smart contracts (chaincode). It is aimed mainly at private networks of companies. To serve the different needs of each company and to be flexible in customer requirements, it consists of various adaptive components. Although this structure efficiently addresses a wide range of needs, deploying such a network for research purposes or rapid development is complex. In this paper, we present a web-based system architecture for the automated deployment of a Hyperledger Fabric network, and in addition, we describe the tools needed to manage and update such a network. Finally, as a proof-of-concept, we implement the proposed architecture to demonstrate the feasibility of our approach.},
+	github={https://github.com/perikost/ExploringEthereum}
+}
+
+@article{perifanis_2022a,
+	title = {Federated Neural Collaborative Filtering},
+	journal = {Knowledge-Based Systems},
+	volume = {242},
+	pages = {108441},
+	year = {2022},
+	issn = {0950-7051},
+	doi = {10.1016/j.knosys.2022.108441},
+	url = {https://www.sciencedirect.com/science/article/pii/S0950705122001812},
+	author = {Vasileios Perifanis and Pavlos S. Efraimidis},
+	keywords = {Federated learning, Privacy, Collaborative filtering, Matrix factorization, Neural networks},
+	abstract = {In this work, we present a federated version of the state-of-the-art Neural Collaborative Filtering (NCF) approach for item recommendations. The system, named FedNCF, enables learning without requiring users to disclose or transmit their raw data. Data localization preserves data privacy and complies with regulations such as the GDPR. Although federated learning enables model training without local data dissemination, the transmission of raw clients’ updates raises additional privacy issues. To address this challenge, we incorporate a privacy-preserving aggregation method that satisfies the security requirements against an honest but curious entity. We argue theoretically and experimentally that existing aggregation algorithms are inconsistent with latent factor model updates. We propose an enhancement by decomposing the aggregation step into matrix factorization and neural network-based averaging. Experimental validation shows that FedNCF achieves comparable recommendation quality to the original NCF system, while our proposed aggregation leads to faster convergence compared to existing methods. We investigate the effectiveness of the federated recommender system and evaluate the privacy-preserving mechanism in terms of computational cost.}
+}
+
+@article{sendros_2022, 
+	title={Blockchain Applications in Agriculture: A Scoping Review}, 
+	volume={12},
+	ISSN={2076-3417},
+	url={http://dx.doi.org/10.3390/app12168061},
+	DOI={10.3390/app12168061},
+	number={16},
+	journal={Applied Sciences},
+	publisher={MDPI AG},
+	author={Sendros, Andreas and Drosatos, George and Efraimidis, Pavlos S. and Tsirliganis, Nestor C.},
+	year={2022},
+	month={Aug},
+	pages={8061},
+	abstract={Blockchain is a distributed, immutable ledger technology initially developed to secure cryptocurrency transactions. Following its revolutionary use in cryptocurrencies, blockchain solutions are now being proposed to address various problems in different domains, and it is currently one of the most “disruptive” technologies. This paper presents a scoping review of the scientific literature for exploring the current research area of blockchain applications in the agricultural sector. The aim is to identify the service areas of agriculture where blockchain is used, the blockchain technology used, the data stored in it, its combination with external databases, the reason it is used, and the variety of agricultural products, as well as the level of maturity of the respective approaches. The study follows the PRISMA-ScR methodology. The purpose of conducting these scoping reviews is to identify the evidence in this field and clarify the key concepts. The literature search was conducted in April 2021 using Scopus and Google Scholar, and a systematic selection process identified 104 research articles for detailed study. Our findings show that in the field, although still in the early stages, with the majority of the studies in the design phase, several experiments have been conducted, so a significant percentage of the work is in the implementation or piloting phase. Finally, our research shows that the use of blockchain in this domain mainly concerns the integrity of agricultural production records, the monitoring of production steps, and the monitoring of products. However, other varied and remarkable blockchain applications include incentive mechanisms, a circular economy, data privacy, product certification, and reputation systems. This study is the first scoping review in this area, following a formal systematic literature review methodology and answering research questions that have not yet been addressed.}
+}
+
+@misc{stamatelatos_2021e,
+	doi = {10.48550/ARXIV.2110.00287},
+	url = {https://arxiv.org/abs/2110.00287},
+	author = {Stamatelatos, Giorgos and Efraimidis, Pavlos S.},
+	keywords = {Data Structures and Algorithms (cs.DS), FOS: Computer and information sciences, FOS: Computer and information sciences},
+	title = {An Exact, Linear Time Barabási-Albert Algorithm},
+	publisher = {arXiv},
+	year = {2021},
+	abstract={This paper presents the development of a new class of algorithms that accurately implement the preferential attachment mechanism of the Barabási-Albert (BA) model to generate scale-free graphs. Contrary to existing approximate preferential attachment schemes, our methods are exact in terms of the proportionality of the vertex selection probabilities to their degree and run in linear time with respect to the order of the generated graph. Our algorithms utilize a series of precise, diverse, weighted and unweighted random sampling steps to engineer the desired properties of the graph generator. We analytically show that they obey the definition of the original BA model that generates scale-free graphs and discuss their higher-order properties. The proposed methods additionally include options to manipulate one dimension of control over the joint inclusion of groups of vertices.}
+}
+
+@misc{stamatelatos_2021d,
+	doi = {10.48550/ARXIV.2110.00287},
+	url = {https://arxiv.org/abs/2110.00287},
+	author = {Stamatelatos, Giorgos and Efraimidis, Pavlos S.},
+	keywords = {Data Structures and Algorithms (cs.DS), FOS: Computer and information sciences, FOS: Computer and information sciences},
+	title = {An Exact, Linear Time Barabási-Albert Algorithm},
+	publisher = {arXiv},
+	year = {2021},
+	abstract={This paper presents the development of a new class of algorithms that accurately implement the preferential attachment mechanism of the Barabási-Albert (BA) model to generate scale-free graphs. Contrary to existing approximate preferential attachment schemes, our methods are exact in terms of the proportionality of the vertex selection probabilities to their degree and run in linear time with respect to the order of the generated graph. Our algorithms utilize a series of precise, diverse, weighted and unweighted random sampling steps to engineer the desired properties of the graph generator. We analytically show that they obey the definition of the original BA model that generates scale-free graphs and discuss their higher-order properties. The proposed methods additionally include options to manipulate one dimension of control over the joint inclusion of groups of vertices.}
+}
+
+@inproceedings{kostamis_2021,
+	author={Kostamis, Periklis and Sendros, Andreas and Efraimidis, Pavlos},
+	booktitle={2021 3rd Conference on Blockchain Research & Applications for Innovative Networks and Services (BRAINS)}, 
+	title={Exploring Ethereum's Data Stores: A Cost and Performance Comparison}, 
+	year={2021},
+	volume={},
+	number={},
+	pages={53-60},
+	doi={10.1109/BRAINS52497.2021.9569804},
+	abstract={The cost of using a blockchain infrastructure as well as the time required to search and retrieve information from it must be considered when designing a decentralized application. In this work, we examine a comprehensive set of data management approaches for Ethereum applications and assess the associated cost in gas as well as the retrieval performance. More precisely, we analyze the storage and retrieval of various-sized data, utilizing smart contract storage. In addition, we study hybrid approaches by using IPFS and Swarm as storage platforms along with Ethereum as a timestamping proof mechanism. Such schemes are especially effective when large chunks of data have to be managed. Moreover, we present methods for low-cost data handling in Ethereum, namely the event-logs, the transaction payload, and the almost surprising exploitation of unused function arguments. Finally, we evaluate these methods on a comprehensive set of experiments.},
+	github={https://github.com/perikost/ExploringEthereum}
+ }
+ 
+ @misc{stamatelatos_2021c,
+	doi = {10.48550/ARXIV.2105.07472},
+	url = {https://arxiv.org/abs/2105.07472},
+	author = {Stamatelatos, Giorgos and Efraimidis, Pavlos S.},
+	keywords = {Discrete Mathematics (cs.DM), Combinatorics (math.CO), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Mathematics, FOS: Mathematics},
+	title = {Lexicographic Enumeration of Set Partitions},
+	publisher = {arXiv},
+	year = {2021},
+	abstract={In this report, we summarize the set partition enumeration problems and thoroughly explain the algorithms used to solve them. These algorithms iterate through the partitions in lexicographic order and are easy to understand and implement in modern high-level programming languages, without recursive structures and jump logic. We show that they require linear space in respect to the set cardinality and advance the enumeration in constant amortized time. The methods discussed in this document are not novel. Our goal is to demonstrate the process of enumerating set partitions and highlight the ideas behind it. This work is an aid for learners approaching this enumeration problem and programmers undertaking the task of implementing it.}
+}
+
+@article{stamatelatos_2021b,
+	title = {Point-of-interest lists and their potential in recommendation systems},
+	volume = {23},
+	issn = {1943-4294},
+	url = {https://doi.org/10.1007/s40558-021-00195-5},
+	doi = {10.1007/s40558-021-00195-5},
+	abstract = {Location based social networks, such as Foursquare and Yelp, have inspired the development of novel recommendation systems due to the massive volume and multiple types of data that their users generate on a daily basis. More recently, research studies have been focusing on utilizing structural data from these networks that relate the various entities, typically users and locations. In this work, we investigate the information contained in unique structural data of social networks, namely the lists or collections of items, and assess their potential in recommendation systems. Our hypothesis is that the information encoded in the lists can be utilized to estimate the similarities amongst POIs and, hence, these similarities can drive a personalized recommendation system or enhance the performance of an existing one. This is based on the fact that POI lists are user generated content and can be considered as collections of related POIs. Our method attempts to extract these relations and express the notion of similarity using graph theoretic, set theoretic and statistical measures. Our approach is applied on a Foursquare dataset of two popular destinations in northern Greece and is evaluated both via an offline experiment and against the opinions of local populace that we obtain via a user study. The results confirm the existence of rich similarity information within the lists and the effectiveness of our approach as a recommendation system.},
+	number = {2},
+	journal = {Information Technology \& Tourism},
+	author = {Stamatelatos, Giorgos and Drosatos, George and Gyftopoulos, Sotirios and Briola, Helen and Efraimidis, Pavlos S.},
+	month = jun,
+	year = {2021},
+	pages = {209--239},
+}
+
+@misc{stamatelatos_2021a,
+  doi = {10.48550/ARXIV.2102.08173}, 
+  url = {https://arxiv.org/abs/2102.08173},
+  author = {Stamatelatos, Giorgos and Efraimidis, Pavlos S.},
+  keywords = {Data Structures and Algorithms (cs.DS), Discrete Mathematics (cs.DM), Probability (math.PR), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Mathematics, FOS: Mathematics},
+  title = {About Weighted Random Sampling in Preferential Attachment Models},
+  publisher = {arXiv},
+  year = {2021},
+  abstract = {The Barabási-Albert model is a popular scheme for creating scale-free graphs but has been previously shown to have ambiguities in its definition. In this paper we discuss a new ambiguity in the definition of the BA model by identifying the tight relation between the preferential attachment process and unequal probability random sampling. While the probability that each individual vertex is selected is set to be proportional to their degree, the model does not specify the joint probabilities that any tuple of m vertices is selected together for m>1. We demonstrate the consequences using analytical, experimental, and empirical analyses and propose a concise definition of the model that addresses this ambiguity. Using the connection with unequal probability random sampling, we also highlight a confusion about the process via which nodes are selected on each time step, for which - despite being implicitly indicated in the original paper - current literature appears fragmented.}
+}
+
+@article{gyftopoulos_2020,
+	title = {A {Twitter}-based approach of news media impartiality in multipartite political scenes},
+	volume = {10},
+	issn = {1869-5469},
+	url = {https://doi.org/10.1007/s13278-020-00642-x},
+	doi = {10.1007/s13278-020-00642-x},
+	abstract = {News dissemination in the modern world deploys online social networks (OSNs) to instantly and freely convey facts and opinions to Internet users worldwide. Recent research studies the structure of the graph formed by the relationships between news readers and media outlets in OSNs to investigate the profile of the media and derive their political leanings. In this work, we focus on the notion of political impartiality in multipartite political scenes. Our aim is to describe the graph-theoretic attributes of the ideal outlet that exhibits an impartial stance towards all political groups and propose a methodology based on Twitter, an OSN with profound informative and political profile, to algorithmically approximate this ideal medium and evaluate the deviation of popular outlets from it. The magnitude of deviation is used to rank the existing outlets based on their political impartiality and, hence, tackle the bewildering question: Which are the most impartial news media in a political scene?. We utilize our techniques on a snapshot of the Twitter subgraph concerning the Greek political and news media scene in April 2018. The results of our approach are juxtaposed with the findings of a survey provided to a group of political scientists and the efficiency of our proposed methodology is soundly confirmed.},
+	number = {1},
+	journal = {Social Network Analysis and Mining},
+	author = {Gyftopoulos, Sotirios and Drosatos, George and Stamatelatos, Giorgos and Efraimidis, Pavlos S.},
+	month = jun,
+	year = {2020},
+	pages = {36},
+}
+
+@article{stamatelatos_2020,
+title = {Revealing the political affinity of online entities through their Twitter followers},
+journal = {Information Processing & Management},
+volume = {57},
+number = {2},
+pages = {102172},
+year = {2020},
+issn = {0306-4573},
+doi = {10.1016/j.ipm.2019.102172},
+url = {https://www.sciencedirect.com/science/article/pii/S0306457319305023},
+author = {Giorgos Stamatelatos and Sotirios Gyftopoulos and George Drosatos and Pavlos S. Efraimidis},
+keywords = {Social network analysis, Twitter followers, News media, Political affinity},
+abstract = {In this work, we show that the structural features of the Twitter online social network can divulge valuable information about the political affinity of the participating nodes. More precisely, we show that Twitter followers can be used to predict the political affinity of prominent Nodes of Interest (NOIs) they opt to follow. We utilize a series of purely structure-based algorithmic approaches, such as modularity clustering, the minimum linear arrangement (MinLA) problem and the DeGroot opinion update model in order to reveal diverse aspects of the NOIs’ political profile. Our methods are applied to a dataset containing the Twitter accounts of the members of the Greek Parliament as well as an enriched dataset that additionally contains popular news sources. The results confirm the viability of our approach and provide evidence that the political affinity of NOIs can be determined with high accuracy via the Twitter follower network. Moreover, the outcome of an independently performed expert study about the offline political scene confirms the effectiveness of our methods.}
+}
+
+@inproceedings{dimitriadis_2019,
+author = {Dimitriadis, Antonios and Drosatos, George and Efraimidis, Pavlos S.},
+title = {How Much Does a Zero-Permission Android App Know about Us?},
+year = {2019},
+isbn = {9781450372961},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3360664.3360671},
+doi = {10.1145/3360664.3360671},
+abstract = {Android devices contain a vast amount of personal data of their owners. These data are stored on the device and are protected by the Android permission scheme. Android apps can obtain access to specific data items by requesting the appropriate permissions from the user. However, in Android, the access to certain assets is granted by default to the installed apps. For example, any Android app has the right to get the device's network operator, which may be used to infer information about user's country and nationality. Similarly, any app has access to the clipboard which may occasionally contain very sensitive information, like a password. Consequently, a honest but curious Android app may leverage the implicit access rights to accumulate such unguarded information pieces and gradually build a detailed profile of the user. The device owner has no immediate way to control this flow of information and, even worse, may not even be aware that this type personal data flow can take place. In this work, we examine the issue of default access rights of Android apps and discuss the potential threat against user privacy. We assess the user awareness and present a prototype zero-permission app that collects user data.},
+booktitle = {Proceedings of the Third Central European Cybersecurity Conference},
+articleno = {7},
+numpages = {5},
+keywords = {Data ex-filtration, Privacy leakage, Android security, Profiling},
+location = {Munich, Germany},
+series = {CECC 2019}
+}
+
+@inproceedings{stamatelatos_2018,
+  author={Stamatelatos, Giorgos and Gyftopoulos, Sotirios and Drosatos, George and Efraimidis, Pavlos S.},
+  booktitle={2018 IEEE Intl Conf on Parallel & Distributed Processing with Applications, Ubiquitous Computing & Communications, Big Data & Cloud Computing, Social Computing & Networking, Sustainable Computing & Communications (ISPA/IUCC/BDCloud/SocialCom/SustainCom)}, 
+  title={Deriving the Political Affinity of Twitter Users from Their Followers}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={1175-1182},
+  doi={10.1109/BDCloud.2018.00173}, 
+  abstract={In this work, we show that Twitter users can reveal valuable political information about particular Nodes of Interest (NOIs) they opt to follow. More precisely, we utilize an interesting graph projection method and a series of algorithmic approaches, such as modularity clustering, a minimum linear arrangement (MinLA) approximation algorithm and the DeGroot opinion update model in order to reveal the political affinity of selected NOIs. Our methods, which are purely structure-based, are applied to a snapshot of the Twitter network based on the user accounts of NOIs, consisting of the members of the current Greek Parliament along with their respective followers. The findings confirm that the information obtained can portray with significant precision the political affinity of the NOIs. We, furthermore, argue that these methods are of general interest for imprinting the political leaning of other NOIs, for example news media, and potentially classifying them in respect to their political bias.}
+  }
+  
+@article{gyftopoulos_2018,
+title = {Formal analysis of DeGroot Influence Problems using probabilistic model checking},
+journal = {Simulation Modelling Practice and Theory},
+volume = {89},
+pages = {144-159},
+year = {2018},
+issn = {1569-190X},
+doi = {10.1016/j.simpat.2018.09.009},
+url = {https://www.sciencedirect.com/science/article/pii/S1569190X18301369},
+author = {Sotirios Gyftopoulos and Pavlos S. Efraimidis and Panagiotis Katsaros},
+keywords = {Social networks, Opinion dynamics, DeGroot model, Stochastic games, Probabilistic model checking, Zachary karate club},
+abstract = {DeGroot learning is a model of opinion diffusion and formation in a social network. We examine the behaviour of the DeGroot learning model when external strategic players that aim to influence the opinion formation process are introduced. More specifically, we consider the case of a single decision maker and that of two competing players, with a fixed number of possible influence actions for each of them. In the former case, the DeGroot model takes the form of a Markov Decision Process (MDP), while in the latter case it takes the form of a Stochastic Game (SG). These models are solved using probabilistic model checking techniques, as well as other solution techniques beyond model checking. The viability of our analysis is attested on a well-known social network, the Zachary’s karate club. Finally, the evaluation of influence in a social network simultaneously with the decision maker’s cost is supported, which is encoded as a multi-objective model checking problem.}
+}
+
+@inproceedings{briola_2018,
+author = {Briola, Helen and Drosatos, George and Stamatelatos, Giorgos and Gyftopoulos, Sotirios and Efraimidis, Pavlos S.},
+title = {Privacy Leakages about Political Beliefs through Analysis of Twitter Followers},
+year = {2018},
+isbn = {9781450366106},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3291533.3291557},
+doi = {10.1145/3291533.3291557},
+abstract = {In this paper, we focus on privacy leakages about Twitter users and show that simply establishing follower and friend connections in the Twitter network might be enough to reveal sensitive information about the political beliefs of a user. More precisely, we create a Twitter dataset containing the twitter nodes of Greek news media and politicians, as well as their followers and present two approaches to predict the political beliefs of a Twitter user and the politicians the user will potentially follow. The intuition behind both approaches is the saying "Show me who your friends are, and I will tell you who you are". In the first approach, the politicians followed by the followers of the user are shown to be correlated to the politicians that the user follows. In the second one, the media that the user follows are used to predict the politicians that the user follows. The experimental results of both approaches confirm our claims and show that significant privacy leakages are possible.},
+booktitle = {Proceedings of the 22nd Pan-Hellenic Conference on Informatics},
+pages = {16–21},
+numpages = {6},
+keywords = {Twitter followers, privacy leakages, political beliefs, social network analysis},
+location = {Athens, Greece},
+series = {PCI '18}
+}
+
+@inproceedings{drosatos_2018,
+  title={Communicating Personalized Risk Factors for Lifestyle Coaching.},
+  author={Drosatos, George and Bakirlis, Kyriakos and Efraimidis, Pavlos S and Kaldoudi, Eleni},
+  booktitle={HEALTHINF},
+  doi = {10.5220/0006660405710578},
+  abstract = {Chronic non-communicable diseases such as diabetes, chronic cardiorenal and respiratory disease and cancer, are serious, burdensome and costly conditions that share a common characteristic: they heavily depend on common behavioural risk factors, such as physical activity, diet, stress, and substance abuse. Despite concerted efforts it has been remarkably difficult to change such lifestyle related disease determinants, as behavioural change is a complex process requiring significant personal responsibility. In this paper we propose a personal mobile eHealth application to communicate personalized lifestyle related health risks and understand their individual impact on personal health condition and disease progression.},
+  booktitle = {Proceedings of the 11th International Joint Conference on Biomedical Engineering Systems and Technologies (BIOSTEC 2018)},
+  pages={571--578},
+  year={2018}
+}
+
+@article{kleinaki_2018,
+title = {A Blockchain-Based Notarization Service for Biomedical Knowledge Retrieval},
+journal = {Computational and Structural Biotechnology Journal},
+volume = {16},
+pages = {288-297},
+year = {2018},
+issn = {2001-0370},
+doi = {10.1016/j.csbj.2018.08.002},
+url = {https://www.sciencedirect.com/science/article/pii/S2001037018300400},
+author = {Athina-Styliani Kleinaki and Petros Mytis-Gkometh and George Drosatos and Pavlos S. Efraimidis and Eleni Kaldoudi},
+keywords = {Biomedical repositories, Cryptographic techniques, Blockchain, Integrity, Non-repudiation, Versioning},
+abstract = {Biomedical research and clinical decision depend increasingly on scientific evidence realized by a number of authoritative databases, mostly public and continually enriched via peer scientific contributions. Given the dynamic nature of biomedical evidence data and their usage in the sensitive domain of biomedical science, it is important to ensure retrieved data integrity and non-repudiation. In this work, we present a blockchain-based notarization service that uses smart digital contracts to seal a biomedical database query and the respective results. The goal is to ensure that retrieved data cannot be modified after retrieval and that the database cannot validly deny that the particular data has been provided as a result of a specific query. Biomedical evidence data versioning is also supported. The feasibility of the proposed notarization approach is demonstrated using a real blockchain infrastructure and is tested on two different biomedical evidence databases: a publicly available medical risk factor reference repository and on the PubMed database of biomedical literature references and abstracts.}
+}
+
+@inproceedings{mytis_2018,
+author={Mytis-Gkometh, P. and Drosatos, G. and Efraimidis, P. S. and Kaldoudi, E.},
+editor={Maglaveras, Nicos and Chouvarda, Ioanna and de Carvalho, Paulo},
+title={Notarization of Knowledge Retrieval from Biomedical Repositories Using Blockchain Technology},
+booktitle={Precision Medicine Powered by pHealth and Connected Health},
+year={2018},
+publisher={Springer Singapore},
+address={Singapore},
+pages={69--73},
+abstract={Biomedical research and clinical decision depend increasingly on a number of authoritative databases, mostly public and continually enriched via peer scientific contributions. Given the dynamic nature of data and their usage in the sensitive domain of biomedical science, it is important to ensure retrieved data integrity and non-repudiation, that is, ensure that retrieved data cannot be modified after retrieval and that the database cannot validly deny that the particular data has been provided as a result of a specific query. In this paper, we propose the use of blockchain technology in combination with digital signatures to create smart digital contracts to seal the query and the respective results each time a third-party requests evidence from a reference biomedical database. The feasibility of the proposed approach is demonstrated using a real blockchain infrastructure and a publicly available medical risk factor reference repository.},
+isbn={978-981-10-7419-6},
+doi={10.1007/978-981-10-7419-6_12}
+}
+
+@article{koutsiamanis_2017,
+author = {Koutsiamanis, Remous-Aris and Efraimidis, Pavlos S.},
+title = {Implementing PacketEconomy: Distributed money-based QoS in OMNET++},
+journal = {International Journal of Communication Systems},
+volume = {30},
+number = {11},
+pages = {e3252},
+keywords = {game theory, networks, OMNET++, quality of service, simulation},
+doi = {10.1002/dac.3252},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/dac.3252},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/dac.3252},
+note = {e3252 dac.3252},
+abstract = {Summary In this work we examine how quality of service (QoS) can be achieved in a real network by allowing packets to coordinate using fiat money in a market economy for router queue positions. In this context we implement and evaluate the PacketEconomy mechanism in the discrete-event simulator OMNET++, using the standard INET library for simulating Internet Protocol version 6 networks and evaluate throughput, end-to-end delay, and packet drop rates. Additionally, we examine whether the flows have a game-theoretic incentive to participate in the market economy, while covering both Transmission Control Protocol– and User Datagram Protocol–based flows in multiple different cases. The mechanism achieves QoS by allowing packets with different QoS requirements waiting to be served in router queues to mutually trade positions by exchanging money. Notably, each flow can independently and selfishly define the ask and bid prices of its packets. In this manner, packets can coordinate to be able to self-regulate their packet-specific access to shared network resources. The results are promising and show that the innovative PacketEconomy mechanism provides robust, effective, and fine-grained QoS while maintaining end-user control for both rate- and window-based flows.},
+year = {2017}
+}
+
+@article{drosatos_2017,
+author = {Drosatos, George and Tasidou, Aimilia and Efraimidis, Pavlos S.},
+title = {Privacy-Enhanced Television Audience Measurements},
+year = {2017},
+issue_date = {February 2017},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {17},
+number = {1},
+issn = {1533-5399},
+pages = {1--27},
+url = {https://doi.org/10.1145/3009969},
+doi = {10.1145/3009969},
+abstract = {Internet-enabled television systems (SmartTVs) are a development that introduces these devices into the interconnected environment of the Internet of Things. We propose a privacy-preserving application for computing Television Audience Measurement (TAM) ratings. SmartTVs communicate over the Internet to calculate aggregate measurements. Contemporary cryptographic building blocks are utilized to ensure the privacy of the participating individuals and the validity of the computed TAM ratings. Additionally, user compensation capabilities are introduced to bring some of the company profits back to the data owners. A prototype implementation is developed on an Android-based SmartTV platform and experimental results illustrate the feasibility of the approach.},
+journal = {ACM Trans. Internet Technol.},
+month = {feb},
+articleno = {10},
+numpages = {29},
+keywords = {television audience measurement (TAM), SmartTV, privacy-preserving data aggregation, Privacy, economics of privacy}
+}
+
+@inproceedings{gyftopoulos_2016,
+author = {Gyftopoulos, Sotirios and Efraimidis, Pavlos S. and Katsaros, Panagiotis},
+title = {Solving Influence Problems on the DeGroot Model with a Probabilistic Model Checking Tool},
+year = {2016},
+isbn = {9781450347891},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3003733.3003780},
+doi = {10.1145/3003733.3003780},
+abstract = {DeGroot learning is a model of opinion diffusion and formation in a social network of individuals. We examine the behavior of the DeGroot learning model when external strategic players that aim to bias the final consensus of the social network, are introduced to the model. More precisely, we consider the case of a single decision maker and the case of two competing external players, and a fixed number of possible influence actions on each individual. When studying the influence problems, we focus on the stochastic processes underlying the solution of DeGroot problems. In case of one decision maker, the analysis of the DeGroot model leads to the formation of a Markov Decision Process (MDP) and in the case of two external competing players the model is reduced to a Stochastic Game (SG). Since such models are heavily used in probabilistic model checking we apply tools of the field to solve them. Preliminary experimental results confirm the viability of our approach, which relies on the common mathematical foundations of the DeGroot problems and probabilistic model checking.},
+booktitle = {Proceedings of the 20th Pan-Hellenic Conference on Informatics},
+articleno = {31},
+numpages = {6},
+keywords = {Opinion dynamics, Social networks, Probabilistic model checking, Stochastic games, DeGroot model},
+location = {Patras, Greece},
+series = {PCI '16}
+}
+
+@inproceedings{dimitriadis_2016,
+author = {Dimitriadis, Antonios and Efraimidis, Pavlos S. and Katos, Vasilios},
+title = {Malevolent App Pairs: An Android Permission Overpassing Scheme},
+year = {2016},
+isbn = {9781450341288},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2903150.2911706},
+doi = {10.1145/2903150.2911706},
+abstract = {Portable smart devices potentially store a wealth of information of personal data, making them attractive targets for data exfiltration attacks. Permission based schemes are core security controls for reducing privacy and security risks. In this paper we demonstrate that current permission schemes cannot effectively mitigate risks posed by covert channels. We show that a pair of apps with different permission settings may collude in order to effectively create a state where a union of their permissions is obtained, giving opportunities for leaking sensitive data, whilst keeping the leak potentially unnoticed. We then propose a solution for such attacks.},
+booktitle = {Proceedings of the ACM International Conference on Computing Frontiers},
+pages = {431–436},
+numpages = {6},
+keywords = {data exfiltration, malevolent applications, android smartphones, privacy, covert channel},
+location = {Como, Italy},
+series = {CF '16}
+}
+
+@article{efraimidis_2016,
+title={A Privacy-by-Design Contextual Suggestion System for Tourism},
+volume={5},
+ISSN={2224-2708},
+url={http://dx.doi.org/10.3390/jsan5020010},
+DOI={10.3390/jsan5020010},
+number={2},
+journal={Journal of Sensor and Actuator Networks},
+publisher={MDPI AG},
+author={Efraimidis, Pavlos and Drosatos, George and Arampatzis, Avi and Stamatelatos, Giorgos and Athanasiadis, Ioannis},
+year={2016},
+month={May},
+pages={10},
+abstract={We focus on personal data generated by the sensors and through the everyday usage of smart devices and take advantage of these data to build a non-invasive contextual suggestion system for tourism. The system, which we call Pythia, exploits the computational capabilities of modern smart devices to offer high quality personalized POI (point of interest) recommendations. To protect user privacy, we apply a privacy by design approach within all of the steps of creating Pythia. The outcome is a system that comprises important architectural and operational innovations. The system is designed to process sensitive personal data, such as location traces, browsing history and web searches (query logs), to automatically infer user preferences and build corresponding POI-based user profiles. These profiles are then used by a contextual suggestion engine to anticipate user choices and make POI recommendations for tourists. Privacy leaks are minimized by implementing an important part of the system functionality at the user side, either as a mobile app or as a client-side web application, and by taking additional precautions, like data generalization, wherever necessary. As a proof of concept, we present a prototype that implements the aforementioned mechanisms on the Android platform accompanied with certain web applications. Even though the current prototype focuses only on location data, the results from the evaluation of the contextual suggestion algorithms and the user experience feedback from volunteers who used the prototype are very positive.}
+}
+
+@inbook{efraimidis_2016,
+    author={Efraimidis, Pavlos and Spirakis, Paul (Pavlos)},
+    editor={Kao, Ming-Yang},
+    title={Weighted Random Sampling},
+    bookTitle={Encyclopedia of Algorithms},
+    year={2016},
+    publisher={Springer New York},
+    address={New York, NY},
+    pages={2365--2367},
+    isbn={978-1-4939-2864-4},
+    doi={10.1007/978-1-4939-2864-4_478}
+}
+
+@article{tasidou_2016,
+	title = {Privacy-preserving, user-centric {VoIP} {CAPTCHA} challenges},
+	volume = {24},
+	issn = {2056-4961},
+	url = {https://doi.org/10.1108/ICS-07-2014-0046},
+	doi = {10.1108/ICS-07-2014-0046},
+	abstract = {Purpose  – This work aims to argue that it is possible to address discrimination issues that naturally arise in contemporary audio CAPTCHA challenges and potentially enhance the effectiveness of audio CAPTCHA systems by adapting the challenges to the user characteristics.  Design/methodology/approach  – A prototype has been designed, called PrivCAPTCHA, to offer privacy-preserving, user-centric CAPTCHA challenges. Anonymous credential proofs are integrated into the Session Initiation Protocol (SIP) protocol and the approach is evaluated in a real-world Voice over Internet Protocol (VoIP) environment.  Findings  – The results of this work indicate that it is possible to create VoIP CAPTCHA services offering privacy-preserving, user-centric challenges while maintaining sufficient efficiency.  Research limitations/implications  – The proposed approach was evaluated through an experimental implementation to demonstrate its feasibility. Additional features, such as appropriate user interfaces and efficiency optimisations, would be useful for a commercial product. Security measures to protect the system from attacks against the SIP protocol would be useful to counteract the effects of the introduced overhead. Future research could investigate the use of this approach on non-audio CAPTCHA services.  Practical implications  – PrivCAPTCHA is expected to achieve fairer, non-discriminating CAPTCHA services while protecting the user’s privacy. Adoption success relies upon the general need for employment of privacy-preserving practices in electronic interactions.  Social implications  – This approach is expected to enhance the quality of life of users, who will now receive CAPTCHA challenges closer to their characteristics. This applies especially to users with disabilities. Additionally, as a privacy-preserving service, this approach is expected to increase trust during the use of services that use it.  Originality/value  – To the best of authors’ knowledge, this is the first comprehensive proposal for privacy-preserving CAPTCHA challenge adaptation. The proposed system aims at providing an improved CAPTCHA service that is more appropriate for and trusted by human users.},
+	number = {1},
+	journal = {Information \& Computer Security},
+	author = {Tasidou, Aimilia and Efraimidis, Pavlos S. and Soupionis, Yannis and Mitrou, Lilian and Katos, Vasilios},
+	month = jan,
+	year = {2016},
+	note = {Publisher: Emerald Group Publishing Limited},
+	pages = {2--19},
+}
+
+@inproceedings{drosatos_2016,
+author = {Drosatos, George and Efraimidis, Pavlos S. and Williams, Garrath and Kaldoudi, Eleni},
+title = {Towards Privacy by Design in Personal E-Health Systems},
+year = {2016},
+isbn = {9789897581700},
+publisher = {SCITEPRESS - Science and Technology Publications, Lda},
+address = {Setubal, PRT},
+url = {https://doi.org/10.5220/0005821404720477},
+doi = {10.5220/0005821404720477},
+abstract = {Personal e-health systems are the next generation of e-health applications and their goal is to assist patients in managing their disease and to help both patients and healthy people maintain behaviours that promote health. To do this, e-health systems collect, process, store and communicate the individual\^{a} s personal data. This paper presents an analysis of personal e-health systems and identifies privacy issues as a first step towards a \^{a} privacy by design\^{a} methodology and practical guidelines.},
+booktitle = {Proceedings of the International Joint Conference on Biomedical Engineering Systems and Technologies},
+pages = {472–477},
+numpages = {6},
+keywords = {Privacy-Enhancing Technologies., Personal e-Health Systems, Privacy by Design},
+location = {Rome, Italy},
+series = {BIOSTEC 2016}
+}
+
+@inproceedings{tsavlidis_2016,
+  title={Prince: an effective router mechanism for networks with selfish flows},
+  author={Lazaros Tsavlidis and Pavlos S. Efraimidis and Remous-Aris Koutsiamanis},
+  year={2016}, 
+  abstract={Starting from the premise that modern routers are not protected from aggressive and unresponsive flows, we define a new, almost stateless, active queue management scheme, called Prince. The basic idea is to protect the fair share of well-behaved flows. We adopt a game theoretic view, where incentive is given to the majority flow by dropping its packets at congestion. In order to find the majority flow, we focus on the queue of the router and detect the flow with the most packets in it. From a game-theoretic point of view, Prince manages to track and bound aggressive flows and favor socially responsible ones. Our results show that in this context Prince resembles MaxMin Fairness allocation. Finally, we also examine a streaming version of the algorithm that can be fine-tuned to any desired performance/accuracy trade-off point.}
+}
+
+@inproceedings{karagiannis_2015,
+author = {Karagiannis, Ioannis and Arampatzis, Avi and Efraimidis, Pavlos S. and Stamatelatos, Giorgos},
+title = {Social Network Analysis of Public Lists of POIs},
+year = {2015},
+isbn = {9781450335515},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2801948.2802031},
+doi = {10.1145/2801948.2802031},
+abstract = {In this work, we show how social network analysis can be applied to lists of points of interest (POIs) in order to extract important information about the POIs and the relations between them. More precisely, we use public lists of POIs to build the PoiGraph, a social graph of POIs, and then apply the Hyperlink-Induced Topic Search (HITS) algorithm and the Normalized Pointwise Mutual Information (NPMI) measure to estimate the user rating of each POI and the pairwise similarity between POIs, respectively. We evaluate our approach on POIs from the cities of Athens, Thessaloniki, and Rhodes. As a data source we use the corresponding publicly accessible user-specified lists of POIs of Foursquare. Our results show that for each POI the authority score obtained with the HITS algorithm is firmly correlated with the actual rating of Foursquare. Moreover, preliminary evidence shows that the NPMI-based measure gives valuable information about the pairwise similarity between POIs.},
+booktitle = {Proceedings of the 19th Panhellenic Conference on Informatics},
+pages = {61–62},
+numpages = {2},
+keywords = {points of interest, HITS, foursquare, social network},
+location = {Athens, Greece},
+series = {PCI '15}
+}
+
+
+@article{tsavli_2015,
+	title = {Reengineering the user: privacy concerns about personal data on smartphones},
+	volume = {23},
+	issn = {2056-4961},
+	url = {https://doi.org/10.1108/ICS-10-2014-0071},
+	doi = {10.1108/ICS-10-2014-0071},
+	abstract = {Purpose  – This paper aims to discuss the privacy and security concerns that have risen from the permissions model in the Android operating system, along with two shortcomings that have not been adequately addressed.  Design/methodology/approach  – The impact of the applications’ evolutionary increment of permission requests from both the user’s and the developer’s point of view is studied, and finally, a series of remedies against the erosion of users’ privacy is proposed.  Findings  – The results of this work indicate that, even though providing access to personal data of smartphone users is by definition neither problematic nor unlawful, today’s smartphone operating systems do not provide an adequate level of protection for the user’s personal data. However, there are several ideas that can significantly improve the situation and mitigate privacy concerns of users of smart devices.  Research limitations/implications  – The proposed approach was evaluated through an examination of the Android’s permission model, although issues arise in other operating systems. The authors’ future intention is to conduct a user study to measure the user’s awareness and concepts surrounding privacy concerns to empirically investigate the above-mentioned suggestions.  Practical implications  – The proposed suggestions in this paper, if adopted in practice, could significantly improve the situation and mitigate privacy concerns of users of smart devices.  Social implications  – The recommendations proposed in this paper would strongly enhance the control of users over their personal data and improve their ability to distinguish legitimate apps from malware or grayware.  Originality/value  – This paper emphasises two shortcomings of the permissions models of mobile operating systems which, in authors’ view, have not been adequately addressed to date and propose an inherent way for apps and other entities of the mobile computing ecosystem to commit to responsible and transparent practices on mobile users’ privacy.},
+	number = {4},
+	urldate = {2022-12-26},
+	journal = {Information \& Computer Security},
+	author = {Tsavli, Matina and Efraimidis, Pavlos S. and Katos, Vasilios and Mitrou, Lilian},
+	month = jan,
+	year = {2015},
+	note = {Publisher: Emerald Group Publishing Limited},
+	pages = {394--405},
+}
+
+@inproceedings{chatzitoulousis_2015,
+author={Chatzitoulousis, Antonios and Efraimidis, Pavlos S. and Athanasiadis, Ioannis N.},
+editor={Garoufallou, Emmanouel and Hartley, Richard J. and Gaitanou, Panorea},
+title={Interoperable Multimedia Annotation and Retrieval for the Tourism Sector},
+booktitle={Metadata and Semantics Research},
+year={2015},
+publisher={Springer International Publishing},
+address={Cham},
+pages={65--76},
+abstract={The Atlas Metadata System (AMS) employs semantic web annotation techniques in order to create an interoperable information annotation and retrieval platform for the tourism sector. AMS adopts state-of-the-art metadata vocabularies, annotation techniques and semantic web technologies. Interoperability is achieved by reusing several vocabularies and ontologies, including Dublin Core, PROV-O, FOAF, Geonames, Creative commons, SKOS, and CiTO, each of which provides with orthogonal views for annotating different aspects of digital assets. Our system invests a great deal in managing geospatial and temporal metadata, as they are extremely relevant for tourism-related applications. AMS has been implemented as a graph database using Neo4j, and is demonstrated with a dataset of more than 160000 images downloaded from Flickr. The system provides with online recommendations, via queries that exploit social networks, spatiotemporal references, and user rankings. AMS is offered via service-oriented endpoints using public vocabularies to ensure reusability.},
+isbn={978-3-319-24129-6}
+}
+
+
+@article{arampatzis_2015,
+	title = {Versatile {Query} {Scrambling} for {Private} {Web} {Search}},
+	volume = {18},
+	issn = {1573-7659},
+	url = {https://doi.org/10.1007/s10791-015-9256-0},
+	doi = {10.1007/s10791-015-9256-0},
+	abstract = {We consider the problem of privacy leaks suffered by Internet users when they perform web searches, and propose a framework to mitigate them. In brief, given a ‘sensitive’ search query, the objective of our work is to retrieve the target documents from a search engine without disclosing the actual query. Our approach, which builds upon and improves recent work on search privacy, approximates the target search results by replacing the private user query with a set of blurred or scrambled queries. The results of the scrambled queries are then used to cover the private user interest. We model the problem theoretically, define a set of privacy objectives with respect to web search and investigate the effectiveness of the proposed solution with a set of queries with privacy issues on a large web collection. Experiments show great improvements in retrieval effectiveness over a previously reported baseline in the literature. Furthermore, the methods are more versatile, predictably-behaved, applicable to a wider range of information needs, and the privacy they provide is more comprehensible to the end-user. Additionally, we investigate the perceived privacy via a user study, as well as, measure the system’s usefulness taking into account the trade off between retrieval effectiveness and privacy. The practical feasibility of the methods is demonstrated in a field experiment, scrambling queries against a popular web search engine. The findings may have implications for other IR research areas, such as query expansion, query decomposition, and distributed retrieval.},
+	number = {4},
+	journal = {Information Retrieval Journal},
+	author = {Arampatzis, Avi and Drosatos, George and Efraimidis, Pavlos S.},
+	month = aug,
+	year = {2015},
+	pages = {331--358},
+}
+
+@inproceedings{drosatos_2015,
+  author={Drosatos, George and Efraimidis, Pavlos S. and Arampatzis, Avi and Stamatelatos, Giorgos and Athanasiadis, Ioannis N.},
+  booktitle={2015 IEEE 39th Annual Computer Software and Applications Conference}, 
+  title={Pythia: A Privacy-Enhanced Personalized Contextual Suggestion System for Tourism}, 
+  year={2015},
+  volume={2},
+  number={},
+  pages={822-827},
+  doi={10.1109/COMPSAC.2015.88},
+  abstract={We present Pythia, a privacy-enhanced non-invasive contextual suggestion system for tourists, with important architectural innovations. The system offers high quality personalized recommendations, non-invasive operation and protection of user privacy. A key feature of Pythia is the exploitation of the vast amounts of personal data generated by smartphones to automatically build user profiles, and make contextual suggestions to tourists. More precisely, the system utilizes (sensitive) personal data, such as location traces, browsing history and web searches (query logs), to build a POI-based user profile. This profile is then used by a contextual suggestion engine for making POI recommendations to the user based on her current location. Strong privacy guarantees are achieved by placing both mechanisms at the user-side. As a proof of concept, we present a Pythia prototype which implements the aforementioned mechanisms as mobile applications for Android, as well as, web applications.}
+  }
+  
+  @article{psaroudakis_2015,
+author = {Psaroudakis, Ioannis and Katos, Vasilios and Efraimidis, Pavlos S.},
+title = {A novel mechanism for anonymizing Global System for Mobile Communications calls using a resource-based Session Initiation Protocol community network},
+journal = {Security and Communication Networks},
+volume = {8},
+number = {3},
+pages = {486-500},
+keywords = {privacy, SIP, smartphone, GSM anonymity},
+doi = {10.1002/sec.995},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/sec.995},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/sec.995},
+abstract = {AbstractConsidering the widespread adoption of smartphones in mobile communications and the well-established resource sharing use in the networking community, we present a novel mechanism to achieve anonymity in the Global System for Mobile Communications (GSM). We propose a Voice over Internet Protocol infrastructure using the Session Initiation Protocol (SIP) where a smartphone registers on a SIP registrar and can start GSM conversation through another smartphone acting as a GSM gateway, by using a SIP intermediate without an extra cost. The testbed that we developed for empirical evaluation revealed no significant quality of service degradation. Copyright © 2014 John Wiley \& Sons, Ltd.},
+year = {2015}
+}
+
+@article{drosatos_2014,
+    title = {Privacy-preserving computation of participatory noise maps in the cloud},
+    journal = {Journal of Systems and Software},
+    volume = {92},
+    pages = {170-183},
+    year = {2014},
+    issn = {0164-1212},
+    doi = {10.1016/j.jss.2014.01.035},
+    author = {George Drosatos and Pavlos S. Efraimidis and Ioannis N. Athanasiadis and Matthias Stevens and Ellie D’Hondt},
+    keywords = {Privacy-preserving computation, Cloud computing, Participatory sensing},
+    abstract = {This paper presents a privacy-preserving system for participatory sensing, which relies on cryptographic techniques and distributed computations in the cloud. Each individual user is represented by a personal software agent, deployed in the cloud, where it collaborates on distributed computations without loss of privacy, including with respect to the cloud service providers. We present a generic system architecture involving a cryptographic protocol based on a homomorphic encryption scheme for aggregating sensing data into maps, and demonstrate security in the Honest-But-Curious model both for the users and the cloud service providers. We validate our system in the context of NoiseTube, a participatory sensing framework for noise pollution, presenting experiments with real and artificially generated data sets, and a demo on a heterogeneous set of commercial cloud providers. To the best of our knowledge our system is the first operational privacy-preserving system for participatory sensing. While our validation pertains to the noise domain, the approach used is applicable in any crowd-sourcing application relying on location-based contributions of citizens where maps are produced by aggregating data  also beyond the domain of environmental monitoring.}
+}
+
+@inproceedings{refanidis_2014,
+	address = {Cham},
+	title = {{myVisitPlannerGR}: {Personalized} {Itinerary} {Planning} {System} for {Tourism}},
+	isbn = {978-3-319-07064-3},
+	abstract = {This application paper presents myVisitPlannerGR, an intelligent web-based system aiming at making recommendations that help visitors and residents of the region of Northern Greece to plan their leisure, cultural and other activities during their stay in this area. The system encompasses a rich ontology of activities, categorized across dimensions such as activity type, historical era, user profile and age group. Each activity is characterized by attributes describing its location, cost, availability and duration range. The system makes activity recommendations based on user-selected criteria, such as visit duration and timing, geographical areas of interest and visit profiling. The user edits the proposed list and the system creates a plan, taking into account temporal and geographical constraints imposed by the selected activities, as well as by other events in the user's calendar. The user may edit the proposed plan or request alternative plans. A recommendation engine employs non-intrusive machine learning techniques to dynamically infer and update the user's profile, concerning his preferences for both activities and resulting plans, while taking privacy concerns into account. The system is coupled with a module to semi-automatically feed its database with new activities in the area.},
+	booktitle = {Artificial {Intelligence}: {Methods} and {Applications}},
+	publisher = {Springer International Publishing},
+	author = {Refanidis, Ioannis and Emmanouilidis, Christos and Sakellariou, Ilias and Alexiadis, Anastasios and Koutsiamanis, Remous-Aris and Agnantis, Konstantinos and Tasidou, Aimilia and Kokkoras, Fotios and Efraimidis, Pavlos S.},
+	editor = {Likas, Aristidis and Blekas, Konstantinos and Kalles, Dimitris},
+	year = {2014},
+	pages = {615--629},
+}
+
+@article{efraimidis_2014,
+  title={Personalised Cloud-Based Recommendation Services for Creative Tourism},
+  author={Efraimidis, Pavlos S},
+  journal={HTHIC 2014},
+  pages={261},
+  year={2014},
+  abstract={}
+}
+
+@article{drosatos_2014,
+author = {Drosatos, George and Efraimidis, Pavlos},
+year = {2014},
+month = {06},
+pages = {525-548},
+title = {User-Centric Privacy-Preserving Statistical Analysis of Ubiquitous Health Monitoring Data},
+volume = {11},
+journal = {Computer Science and Information Systems},
+doi = {10.2298/CSIS130120022D}, 
+abstract={In this paper, we propose a user-centric software architecture for managing Ubiquitous Health Monitoring Data (UHMD) generated from wearable sensors in a Ubiquitous Health Monitoring System (MINIS), and examine how these data can be used within privacy-preserving distributed statistical analysis. Two are the main goals of our approach. First, to enhance the privacy of patients. Second, to decongest the Health Monitoring Center (HMC) from the enormous amount of biomedical data generated by the users' wearable sensors. In our solution personal software agents are used to receive and manage the personal medical data of their owners. Moreover, the personal agents can support privacy-preserving distributed statistical analysis of the health data To this end, we present a cryptographic protocol based on secure multi-party computations that accept as input current or archived values of users' wearable sensors. We describe a prototype implementation that performs a statistical analysis on a community of independent personal agents. Finally, experiments with up to several hundred agents confirm the viability and the effectiveness of our approach.}
+}
+
+
+@article{soupionis_2014,
+	title = {A game-theoretic analysis of preventing spam over {Internet} {Telephony} via audio {CAPTCHA}-based authentication},
+	volume = {22},
+	issn = {1875-8924},
+	doi = {10.3233/JCS-140496},
+	abstract = {Spam over Internet Telephony (SPIT) is a potential source of disruption in Voice over IP (VoIP) systems. The use of anti-SPIT mechanisms, such as filters and audio CAPTCHA (Completely Automated Public Turing Test to Tell Computer and Humans Apart) can prevent unsolicited calls and lead to less unwanted traffic. In this paper, we present a game-theoretic model, in which the game is played between SPIT senders and internet telephony users. The game includes call filters and audio CAPTCHA, so as to classify incoming calls as legitimate or malicious. We show how the resulting model can be used to decide upon the trade-offs present in this problem and help us predict the SPIT sender’s behavior. We also highlight the advantages in terms of SPIT call reduction of merely introducing CAPTCHA, and provide experimental verification of our results.},
+	number = {3},
+	journal = {Journal of Computer Security},
+	author = {Soupionis, Yannis and Koutsiamanis, Remous-Aris and Efraimidis, Pavlos and Gritzalis, Dimitris},
+	year = {2014},
+	note = {Publisher: IOS Press},
+	keywords = {audio CAPTCHA, Game Theory, Nash equilibria, Spam over Internet Telephony (SPIT), Spam prevention},
+	pages = {383--413},
+}
+
+@article{drosatos_2014,
+	title = {An efficient privacy-preserving solution for finding the nearest doctor},
+	volume = {18},
+	issn = {1617-4917},
+	url = {https://doi.org/10.1007/s00779-012-0619-x},
+	doi = {10.1007/s00779-012-0619-x},
+	abstract = {In this work, we define the Nearest Doctor Problem for finding the nearest doctor in case of an emergency and present a privacy-preserving protocol for solving it. The solution is based on cryptographic primitives and makes use of the current location of each participating doctor. The protocol is efficient and protects the privacy of the doctors’ locations. A prototype implementing the proposed solution for a community of doctors that use mobile devices to obtain their current location is presented. The prototype is evaluated on experimental communities with up to several hundred doctor agents.},
+	number = {1},
+	journal = {Personal and Ubiquitous Computing},
+	author = {Drosatos, George and Efraimidis, Pavlos S.},
+	month = jan,
+	year = {2014},
+	pages = {75--90},
+}
+
+@article{arampatzis_2013,
+    author = {Arampatzis, Avi and Efraimidis, Pavlos S. and Drosatos, George},
+    title = {A Query Scrambler for Search Privacy on the Internet},
+    year = {2013},
+    issue_date = {December  2013},
+    publisher = {Kluwer Academic Publishers},
+    address = {USA},
+    volume = {16},
+    number = {6},
+    issn = {1386-4564},
+    url = {https://doi.org/10.1007/s10791-012-9212-1},
+    doi = {10.1007/s10791-012-9212-1},
+    abstract = {We propose a method for search privacy on the Internet, focusing on enhancing plausible deniability against search engine query-logs. The method approximates the target search results, without submitting the intended query and avoiding other exposing queries, by employing sets of queries representing more general concepts. We model the problem theoretically, and investigate the practical feasibility and effectiveness of the proposed solution with a set of real queries with privacy issues on a large web collection. The findings may have implications for other IR research areas, such as query expansion and fusion in meta-search. Finally, we discuss ideas for privacy, such as k-anonymity, and how these may be applied to search tasks.},
+    journal = {Inf. Retr.},
+    month = {dec},
+    pages = {657679},
+    numpages = {23},
+    keywords = {Query scrambler, WordNet, Fusion, Search privacy}
+}
+
+@inproceedings{drosatos_2013,
+  title={DUTH at TREC 2013 Contextual Suggestion Track.},
+  author={Drosatos, George and Stamatelatos, Giorgos and Arampatzis, Avi and Efraimidis, Pavlos S},
+  booktitle={TREC},
+  year={2013}, 
+  abstract={In this report we give an overview of our participation in the TREC 2013 Contextual Suggestion Track. We present an approach for context processing that comprises a newly designed and fine-tuned POI (Point Of Interest) data collection technique, a crowdsourcing approach to speed up data collection and two radically different approaches for suggestion processing (a k-NN based and a Rocchio-like). In the context processing, we collect POIs from three popular place search engines, Google Places, Foursquare and Yelp. The collected POIs are enriched by adding snippets from the Google and Bing search engines using crowdsourcing techniques. In the suggestion processing, we propose two methods. The first submits each candidate place as a query to an index of a user’s rated examples and scores it based on the top-k results. The second method is based on Rocchio’s algorithm and uses the rated examples per user profile to generate a personal query which is then submitted to an index of all candidate places. The track evaluation shows that both approaches are working well; especially the Rocchio-like approach is the most promising since it scores almost firmly above the median system and achieves the best system result in almost half of the judged contextprofile pairs. In the final TREC system rankings, we are the 2nd best group in MRR and TBG, and 3rd best group in P@5, out of 15 groups in the category we participated.}
+}
+
+@inproceedings{efraimidis_2013,
+	address = {Berlin, Heidelberg},
+	title = {Money-{Based} {Coordination} of {Network} {Packets}},
+	isbn = {978-3-642-38233-8},
+	abstract = {In this work, we apply a common economic tool, namely money, to coordinate network packets. In particular, we present a network economy, called PacketEconomy, where each flow is modeled as a population of rational network packets, and these packets can self-regulate their access to network resources by mutually trading their positions in router queues. We consider a corresponding Markov model of trade and show that there are Nash equilibria (NE) where queue positions and money are exchanged directly between the network packets. This simple approach, interestingly, delivers significant improvements for packets and routers.},
+	booktitle = {Algorithms and {Complexity}},
+	publisher = {Springer Berlin Heidelberg},
+	author = {Efraimidis, Pavlos S. and Koutsiamanis, Remous-Aris},
+	editor = {Spirakis, Paul G. and Serna, Maria},
+	year = {2013},
+	pages = {197--208},
+}
+
+@inproceedings{arampatzis_2013,
+	address = {Berlin, Heidelberg},
+	title = {A {Versatile} {Tool} for {Privacy}-{Enhanced} {Web} {Search}},
+	isbn = {978-3-642-36973-5},
+	abstract = {We consider the problem of privacy leaks suffered by Internet users when they perform web searches, and propose a framework to mitigate them. Our approach, which builds upon and improves recent work on search privacy, approximates the target search results by replacing the private user query with a set of blurred or scrambled queries. The results of the scrambled queries are then used to cover the original user interest. We model the problem theoretically, define a set of privacy objectives with respect to web search and investigate the effectiveness of the proposed solution with a set of real queries on a large web collection. Experiments show great improvements in retrieval effectiveness over a previously reported baseline in the literature. Furthermore, the methods are more versatile, predictably-behaved, applicable to a wider range of information needs, and the privacy they provide is more comprehensible to the end-user.},
+	booktitle = {Advances in {Information} {Retrieval}},
+	publisher = {Springer Berlin Heidelberg},
+	author = {Arampatzis, Avi and Drosatos, George and Efraimidis, Pavlos S.},
+	editor = {Serdyukov, Pavel and Braslavski, Pavel and Kuznetsov, Sergei O. and Kamps, Jaap and Rüger, Stefan and Agichtein, Eugene and Segalovich, Ilya and Yilmaz, Emine},
+	year = {2013},
+	pages = {368--379},
+}
+
+@article{koutsiamanis_2013,
+author = {Koutsiamanis, Remous-Aris and Efraimidis, Pavlos},
+year = {2013},
+month = {01},
+pages = {117-126},
+title = {A heaviest hitters limiting mechanism with O(1) time complexity for sliding-window data streams},
+volume = {14},
+journal = {Journal of Internet Technology},
+doi = {10.6138/JIT.2013.14.1.12}
+}
+
+@misc{efraimidis_2012,
+  doi = {10.48550/ARXIV.1208.3747},  
+  url = {https://arxiv.org/abs/1208.3747},
+  author = {Efraimidis, Pavlos S. and Koutsiamanis, Remous-Aris},  
+  keywords = {Data Structures and Algorithms (cs.DS), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {On Money as a Means of Coordination between Network Packets},
+  publisher = {arXiv},
+  year = {2012},
+  abstract = {In this work, we apply a common economic tool, namely money, to coordinate network packets. In particular, we present a network economy, called PacketEconomy, where each flow is modeled as a population of rational network packets, and these packets can self-regulate their access to network resources by mutually trading their positions in router queues. Every packet of the economy has its price, and this price determines if and when the packet will agree to buy or sell a better position. We consider a corresponding Markov model of trade and show that there are Nash equilibria (NE) where queue positions and money are exchanged directly between the network packets. This simple approach, interestingly, delivers improvements even when fiat money is used. We present theoretical arguments and experimental results to support our claims.}
+}
+
+@inproceedings{drosatos_2012b,
+    author={Drosatos, George and Efraimidis, Pavlos S. and Athanasiadis, Ioannis N. and D'Hondt, Ellie and Stevens, Matthias},
+    booktitle={2012 IEEE 36th Annual Computer Software and Applications Conference}, 
+    title={A Privacy-Preserving Cloud Computing System for Creating Participatory Noise Maps}, 
+    year={2012},
+    volume={},
+    number={},
+    pages={581-586},
+    doi={10.1109/COMPSAC.2012.78}
+}
+
+@inproceedings{tasidou_2012b,
+author = {Tasidou, A and Efraimidis, Pavlos and Soupionis, Yannis and Mitrou, Lilian and Katos, Vasilios},
+year = {2012},
+month = {06},
+pages = {},
+title = {User-centric, privacy-preserving adaptation for voIP CAPTCHA challenges},
+journal = {Proceedings of the 6th International Symposium on Human Aspects of Information Security and Assurance, HAISA 2012},
+abstract={The effectiveness of CAPTCHA challenges largely depends on being simultaneously easier to solve for humans and harder to solve for bots. In this work we argue that it is possible to enhance the effectiveness of audio CAPTCHA challenges by adapting the challenge to the users’ characteristics. We propose a method for achieving this adaptation while protecting users’ privacy. Moreover, our approach allows us to address discrimination issues that naturally arise in contemporary audio CAPTCHA challenges. Utilizing modern cryptographic techniques we design a privacy-preserving system, called PrivCAPTCHA, which offers customized CAPTCHA challenges.}
+}
+
+@inproceedings{drosatos_2012a,
+	address = {Berlin, Heidelberg},
+	title = {Privacy-{Preserving} {Television} {Audience} {Measurement} {Using} {Smart} {TVs}},
+	doi = {10.1007/978-3-642-30436-1_19},
+	isbn = {978-3-642-30436-1},
+	abstract = {Internet-enabled television systems, often referred to as Smart TVs, are a new development in television and home entertainment technologies. In this work, we propose a new, privacy-preserving, approach for Television Audience Measurement (TAM), utilizing the capabilities of the Smart TV technologies. We propose a novel application to calculate aggregate audience measurements using Smart TV computation capabilities and permanent Internet access. Cryptographic techniques, including homomorphic encryption and zero-knowledge proofs, are used to ensure both that the privacy of the participating individuals is preserved and that the computed results are valid. Additionally, participants can be compensated for sharing their information. Preliminary experimental results on an Android-based Smart TV platform show the viability of the approach.},
+	booktitle = {Information {Security} and {Privacy} {Research}},
+	publisher = {Springer Berlin Heidelberg},
+	author = {Drosatos, George and Tasidou, Aimilia and Efraimidis, Pavlos S.},
+	editor = {Gritzalis, Dimitris and Furnell, Steven and Theoharidou, Marianthi},
+	year = {2012},
+	pages = {223--234},
+}
+
+@inproceedings{psaroudakis_2012,
+	address = {Berlin, Heidelberg},
+	title = {A {Framework} for {Anonymizing} {GSM} {Calls} over a {Smartphone} {VoIP} {Network}},
+	doi = {10.1007/978-3-642-30436-1_46},
+	isbn = {978-3-642-30436-1},
+	abstract = {The proposed framework describes a service for users that gives them the ability to make gsm calls from their smartphones without revealing their identity. The principle to achieve that is simple: instead of using your cell phone to make a call, pick somebody else's phone to do so. We proposed an infrastructure of smartphones, sip registrars and sip proxies to provide caller anonymity. We developed a testbed where a smartphone registers on a SIP registrar and can start GSM conversation through another smartphone acting as a GSM gateway, by using a SIP proxy. Empirical evaluation revealed no significant QoS degradation.},
+	booktitle = {Information {Security} and {Privacy} {Research}},
+	publisher = {Springer Berlin Heidelberg},
+	author = {Psaroudakis, Ioannis and Katos, Vasilios and Efraimidis, Pavlos S.},
+	editor = {Gritzalis, Dimitris and Furnell, Steven and Theoharidou, Marianthi},
+	year = {2012},
+	pages = {543--548},
+}
+
+@inproceedings{tasidou_2012a,
+	address = {Berlin, Heidelberg},
+	title = {Using {Personal} {Portfolios} to {Manage} {Customer} {Data}},
+	doi = {10.1007/978-3-642-28879-1_10},
+	isbn = {978-3-642-28879-1},
+	abstract = {Transactions today are conducted in a way that leaves no real option to the customers to protect their privacy. Sensitive private information is left uncontrolled at the companies' disposal and is often (un)intentionally leaked to unauthorized parties. There is a growing demand for privacy-preserving management of private information that will make individuals feel safer during their transactions and assist companies with customer data management. In this work we propose that individuals store and manage their transaction data locally, in a personal portfolio, allowing them to retain control of their private information. Using contemporary cryptographic techniques, companies are given access to the accountable, certified data of portfolios in a privacy-preserving way.},
+	booktitle = {Data {Privacy} {Management} and {Autonomous} {Spontaneus} {Security}},
+	publisher = {Springer Berlin Heidelberg},
+	author = {Tasidou, Aimilia and Efraimidis, Pavlos S.},
+	editor = {Garcia-Alfaro, Joaquin and Navarro-Arribas, Guillermo and Cuppens-Boulahia, Nora and de Capitani di Vimercati, Sabrina},
+	year = {2012},
+	pages = {141--154},
+}
+
+@inproceedings{drosatos_2011b,
+	address = {Berlin, Heidelberg},
+	title = {Privacy-{Preserving} {Statistical} {Analysis} on {Ubiquitous} {Health} {Data}},
+	doi = {10.1007/978-3-642-22890-2_3},
+	isbn = {978-3-642-22890-2},
+	abstract = {In this work, we consider ubiquitous health data generated from wearable sensors in a Ubiquitous Health Monitoring System (UHMS) and examine how these data can be used within privacy- preserving distributed statistical analysis. To this end, we propose a secure multi-party computation based on a privacy-preserving cryptographic protocol that accepts as input current or archived values of users' wearable sensors. We describe a prototype implementation of the proposed solution with a community of independent personal agents and present preliminary results that confirm the viability of the approach.},
+	booktitle = {Trust, {Privacy} and {Security} in {Digital} {Business}},
+	publisher = {Springer Berlin Heidelberg},
+	author = {Drosatos, George and Efraimidis, Pavlos S.},
+	editor = {Furnell, Steven and Lambrinoudakis, Costas and Pernul, Günther},
+	year = {2011},
+	pages = {24--36},
+}
+
+@inproceedings{koutsiamanis_2011,
+  author={Koutsiamanis, Remous-Aris and Efraimidis, Pavlos S.},
+  booktitle={2011 Fifth FTRA International Conference on Multimedia and Ubiquitous Engineering}, 
+  title={An Exact and O(1) Time Heaviest and Lightest Hitters Algorithm for Sliding-Window Data Streams}, 
+  abstract = {In this work we focus on the problem of finding the heaviest-k and lightest-k hitters in a sliding window data stream. The most recent research endeavours have yielded an e-approximate algorithm with update operations in constant time with high probability and O(1/e) query time for the heaviest hitters case. We propose a novel algorithm which for the first time, to our knowledge, provides exact, not approximate, results while at the same time achieves O(1) time with high probability complexity on both update and query operations. Furthermore, our algorithm is able to provide both the heaviest-k and the lightest-k hitters at the same time without any overhead. In this work, we describe the algorithm and the accompanying data structure that supports it and perform quantitative experiments with synthetic data to verify our theoretical predictions.},
+  year={2011},
+  volume={},
+  number={},
+  pages={89-94},
+  doi={10.1109/MUE.2011.27}}
+  
+@inproceedings{drosatos_2011a,
+author = {Drosatos, George and Efraimidis, Pavlos S.},
+title = {Privacy-Enhanced Management of Ubiquitous Health Monitoring Data},
+year = {2011},
+isbn = {9781450307727},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2141622.2141667},
+doi = {10.1145/2141622.2141667},
+abstract = {In this paper, we propose a new architecture for managing data in a Ubiquitous Health Monitoring System (UHMS). The purpose of this architecture is to enhance the privacy of patients and furthermore to decongest the Health Monitoring Center (HMC) from the enormous amount of biomedical data generated by the users' wearable sensors. This is achieved by using personal agents that receive and manage the personal medical data of their owners. A component implementing the appropriate level of intelligence can be plugged-in into the personal agent and continuously analyze the raw health data. In case of an aberration detection the component may alert the HMC to initiate a more thorough examination of the possible emergency. Finally, we discuss how the personal agents can support privacy-preserving distributed computations.},
+booktitle = {Proceedings of the 4th International Conference on PErvasive Technologies Related to Assistive Environments},
+articleno = {37},
+numpages = {4},
+keywords = {ubiquitous health data, ubiquitous health data privacy, biomedical data, personal agents, personal data management, privacy},
+location = {Heraklion, Crete, Greece},
+series = {PETRA '11}
+}
+
+@inproceedings{arampatzis_2011,
+	address = {Berlin, Heidelberg},
+	title = {Enhancing {Deniability} against {Query}-{Logs}},
+	doi = {10.1007/978-3-642-20161-5_13},
+	isbn = {978-3-642-20161-5},
+	abstract = {We propose a method for search privacy on the Internet, focusing on enhancing plausible deniability against search engine query-logs. The method approximates the target search results, without submitting the intended query and avoiding other exposing queries, by employing sets of queries representing more general concepts. We model the problem theoretically, and investigate the practical feasibility and effectiveness of the proposed solution with a set of real queries with privacy issues on a large web collection. The findings may have implications for other IR research areas, such as query expansion and fusion in meta-search.},
+	booktitle = {Advances in {Information} {Retrieval}},
+	publisher = {Springer Berlin Heidelberg},
+	author = {Arampatzis, Avi and Efraimidis, Pavlos and Drosatos, George},
+	editor = {Clough, Paul and Foley, Colum and Gurrin, Cathal and Jones, Gareth J. F. and Kraaij, Wessel and Lee, Hyowon and Mudoch, Vanessa},
+	year = {2011},
+	pages = {117--128},
+}
+
+@misc{efraimidis_2010c,
+  doi = {10.48550/ARXIV.1012.0256},
+  url = {https://arxiv.org/abs/1012.0256},
+  author = {Efraimidis, Pavlos S.},
+  keywords = {Data Structures and Algorithms (cs.DS), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Weighted Random Sampling over Data Streams},
+  abstract={In this work, we present a comprehensive treatment of weighted random sampling (WRS) over data streams. More precisely, we examine two natural interpretations of the item weights, describe an existing algorithm for each case ([2, 4]), discuss sampling with and without replacement and show adaptations of the algorithms for several WRS problems and evolving data streams.},
+  publisher = {arXiv},
+  year = {2010},
+}
+
+@misc{efraimidis_2010b,
+  doi = {10.48550/ARXIV.1012.0259},
+  url = {https://arxiv.org/abs/1012.0259},
+  author = {Efraimidis, Pavlos S.},
+  abstract ={Knuth [12, Page 417] states that "the (program of the) Fibonaccian search technique looks very mysterious at first glance" and that "it seems to work by magic". In this work, we show that there is even more magic in Fibonaccian (or else Fibonacci) search. We present a generalized Fibonacci procedure that follows perfectly the implicit optimal decision tree for search problems where the cost of each comparison depends on its outcome.},
+  keywords = {Data Structures and Algorithms (cs.DS), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {(α, β) Fibonacci Search},
+  publisher = {arXiv},
+  year = {2010},  
+}
+
+@article{efraimidis_2010a,
+	title = {Window-games between {TCP} flows},
+	volume = {411},
+	issn = {0304-3975},
+	url = {https://www.sciencedirect.com/science/article/pii/S0304397510001684},
+	doi = {10.1016/j.tcs.2010.03.031},
+	abstract = {We consider network congestion problems between TCP flows and define a new game, the Window-game, which models the problems of network congestion caused by the competing flows. Analytical and experimental results show the relevance of the Window-game to real TCP congestion games and provide interesting insight into the respective Nash equilibria. Furthermore, we propose a new algorithmic queue mechanism, called Prince, which at congestion makes a scapegoat of the most greedy flow. We provide evidence which shows that Prince achieves efficient Nash equilibria while requiring only limited computational resources.},
+	number = {31},
+	journal = {Theoretical Computer Science},
+	author = {Efraimidis, Pavlos S. and Tsavlidis, Lazaros and Mertzios, George B.},
+	year = {2010},
+	keywords = {Algorithmic game theory, Nash equilibrium, Network games},
+	pages = {2798--2817},
+}
+
+@inproceedings{drosatos_2010,
+author = {Drosatos, Georgios and Efraimidis, Pavlos S.},
+title = {A Privacy-Preserving Protocol for Finding the Nearest Doctor in an Emergency},
+year = {2010},
+isbn = {9781450300711},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1839294.1839316},
+doi = {10.1145/1839294.1839316},
+abstract = {In this work, we define the Nearest Doctor Problem (NDP) for finding the closest doctor in case of an emergency and present a secure multi-party computation for solving it. The solution is based on a privacy-preserving cryptographic protocol and makes use of the current location of each participating doctor. The protocol is efficient and protects the privacy of the location of all doctors. A prototype implementing the proposed solution for a community of doctors that use mobile devices to obtain their current location is presented.},
+booktitle = {Proceedings of the 3rd International Conference on PErvasive Technologies Related to Assistive Environments},
+articleno = {18},
+numpages = {8},
+keywords = {personal data, peer-to-peer network, privacy-preserving protocol, location privacy},
+location = {Samos, Greece},
+series = {PETRA '10}
+}
+
+@inproceedings{tasidou_2010,
+	address = {Berlin, Heidelberg},
+	title = {Economics of {Personal} {Data} {Management}: {Fair} {Personal} {Information} {Trades}},
+	doi={10.1007/978-3-642-11631-5_14},
+	isbn = {978-3-642-11631-5},
+	abstract = {Individuals today have no control over the way their personal information is being used even though they are the ones to suffer the consequences of any unwanted uses of their information. We propose addressing this externality through the creation of a market for personal information, where licenses to access individuals' personal information will be voluntarily traded. Through this market, satisfactory compensation to the information owner is provided, whilst personal information remains under the owner's control. Using cryptographic tools and micropayments we propose and develop a prototype for personal information trades where the above principles are implemented and tested.},
+	booktitle = {Next {Generation} {Society}. {Technological} and {Legal} {Issues}},
+	publisher = {Springer Berlin Heidelberg},
+	author = {Tasidou, A. and Efraimidis, P. S. and Katos, V.},
+	editor = {Sideridis, Alexander B. and Patrikakis, Charalampos Z.},
+	year = {2010},
+	pages = {151--160},
+}
+
+@article{efraimidis_2009,
+	title = {Towards privacy in personal data management},
+	volume = {17},
+	issn = {0968-5227},
+	url = {https://doi.org/10.1108/09685220910993971},
+	doi = {10.1108/09685220910993971},
+	abstract = {Purpose In order to enhance privacy protection during electronic transactions, the purpose of this paper is to propose, develop, and evaluate a personal data management framework called Polis that abides by the following principle: every individual has absolute control over his/her personal data that reside only at his/her own side. Design/methodology/approach This paper identifies representative electronic transactions that involve personal data and proposes Polis‐based protocols for them. The approach is evaluated on a Polis prototype both as a stand‐alone application and as part of a commercial database management system. Findings The results of this paper indicate that electronic transactions can remain both feasible and straightforward, while personal data remain only at the owner's side. Research limitations/implications This paper describes a Polis‐approach implementing prototype, which is easy to deploy and friendly to current information management technologies. However, the usability of the prototype has to be enhanced with supporting tools for editing personal data and policies and a more intuitive user interface. Finally, the Polis‐platform enables a new class of user‐centered distributed applications, which it intends to investigate. Practical implications Even though the conditions for a personal data management approach like Polis are mature, and Polis can be progressively adopted, it still entails a major change in current business practices. Originality/value This paper proposes a new paradigm for the management of personal data, which admits individuals to have their personal data stored only at their own side. The new approach can be of mutual benefit to both individuals and companies.},
+	number = {4},
+	urldate = {2022-12-27},
+	journal = {Information Management \& Computer Security},
+	author = {Efraimidis, Pavlos S. and Drosatos, Georgios and Nalbadis, Fotis and Tasidou, Aimilia},
+	month = jan,
+	year = {2009},
+	note = {Publisher: Emerald Group Publishing Limited},
+	pages = {311--329},
+}
+
+@inproceedings{kontogiannis_2009,
+  title={Probing based load balancing for web server farms},
+  author={Kontogiannis, Sotirios and Valsamidis, Stavros and Efraimidis, Pavlos and Karakos, Alexandros},
+  abstract={We present an adaptive load balancing algorithm, ALBL, for cluster-based web systems. The balancing policy is based on two criteria; HTTP process time and network delay. The former describes web server ability to process a forthcoming request, while the latter tries to estimate network conditions. Periodic calculations of the criteria are performed by agents at the web switch and the estimation process is transparent to web servers. We compare our implementation with known blind selection balancing algorithms used at web-farms, such as: Round},
+  booktitle={Proc. of the 13th Panhellenic Conference on Informatics},
+  pages={175--180},
+  year={2009}
+}
+
+@inproceedings{efraimidis_2008,
+	address = {Berlin, Heidelberg},
+	title = {Window-{Games} between {TCP} {Flows}},
+	doi={10.1007/978-3-540-79309-0_10},
+	isbn = {978-3-540-79309-0},
+	abstract = {We consider network congestion problems between TCP flows and define a new game, the Window-game, which models the problem of network congestion caused by the competing flows. Analytical and experimental results show the relevance of the Window-game to the real TCP game and provide interesting insight on Nash equilibria of the respective network games. Furthermore, we propose a new algorithmic queue mechanism, called Prince, which at congestion makes a scapegoat of the most greedy flow. Preliminary evidence shows that Prince achieves efficient Nash equilibria while requiring only limited computational resources.},
+	booktitle = {Algorithmic {Game} {Theory}},
+	publisher = {Springer Berlin Heidelberg},
+	author = {Efraimidis, Pavlos S. and Tsavlidis, Lazaros},
+	editor = {Monien, Burkhard and Schroeder, Ulf-Peter},
+	year = {2008},
+	pages = {95--108},
+}
+
+@article{efraimidis_2008,
+	title = {The complexity of linear programming in (γ,κ)-form},
+	volume = {105},
+	issn = {0020-0190},
+	url = {https://www.sciencedirect.com/science/article/pii/S0020019007002591},
+	doi = {10.1016/j.ipl.2007.08.025},
+	abstract = {Linear programming in (γ,κ)-form is a restricted class of linear programming (LP) introduced in [L. Trevisan, Parallel approximation algorithms by positive linear programming. Algorithmica 21 (1998) 72–88]. Since [L. Trevisan, Erratum: A correction to parallel approximation algorithms by positive linear programming. Algorithmica 27 (2000) 115–119] the complexity of (γ,κ)-form LP is an open problem. In this work, we show that LP in (γ,κ)-form is P-Complete to be approximated within any constant factor. An immediate consequence is that the extension of Positive Linear Programming (PLP) where the coefficients (matrix A) can have negative values is also P-Complete to be approximated within any constant factor.},
+	number = {5},
+	journal = {Information Processing Letters},
+	author = {Efraimidis, Pavlos S.},
+	year = {2008},
+	keywords = {Analysis of algorithms, Approximation algorithms, Computational complexity},
+	pages = {199--201},
+}
+
+@article{papaschinopoulos_2007,
+    title = {Existence, uniqueness and asymptotic behavior of the solutions of a fuzzy differential equation with piecewise constant argument},
+    journal = {Information Sciences},
+    volume = {177},
+    number = {18},
+    pages = {3855-3870},
+    year = {2007},
+    issn = {0020-0255},
+    doi = {10.1016/j.ins.2007.03.006},
+    author = {G. Papaschinopoulos and G. Stefanidou and P. Efraimidis},
+    keywords = {Fuzzy differential equations with piecewise constant argument, Seikkala derivative, Fuzzy number, -Cuts},
+    abstract = {In this paper we study the existence, the uniqueness and the asymptotic behavior of the solutions of the fuzzy differential equation of the form:x′(t)=px(t)+qx([t]),t∈[0,∞),where p, q are constant real numbers and the initial value x0 is a fuzzy number.}
+}
+
+@article{efraimidis_2006b,
+    title = {Weighted random sampling with a reservoir},
+    journal = {Information Processing Letters},
+    volume = {97},
+    number = {5},
+    pages = {181-185},
+    year = {2006},
+    issn = {0020-0190},
+    doi = {10.1016/j.ipl.2005.11.003},
+    author = {Pavlos S. Efraimidis and Paul G. Spirakis},
+    keywords = {Weighted random sampling, Reservoir sampling, Randomized algorithms, Data streams, Parallel algorithms},
+    abstract = {In this work, a new algorithm for drawing a weighted random sample of size m from a population of n weighted items, where m⩽n, is presented. The algorithm can generate a weighted random sample in one-pass over unknown populations.}
+}
+
+@article{efraimidis_2006a,
+	title = {Approximation schemes for scheduling and covering on unrelated machines},
+	volume = {359},
+	issn = {0304-3975},
+	url = {https://www.sciencedirect.com/science/article/pii/S0304397506003409},
+	doi = {10.1016/j.tcs.2006.05.025},
+	abstract = {We examine the problem of assigning n independent jobs to m unrelated parallel machines, so that each job is processed without interruption on one of the machines, and at any time, every machine processes at most one job. We focus on the case where m is a fixed constant, and present a new rounding approach that yields approximation schemes for multi-objective minimum makespan scheduling with a fixed number of linear cost constraints. The same approach gives approximation schemes for covering problems like maximizing the minimum load on any machine, and for assigning specific or equal loads to the machines.},
+	number = {1},
+	journal = {Theoretical Computer Science},
+	author = {Efraimidis, Pavlos S. and Spirakis, Paul G.},
+	year = {2006},
+	keywords = {Approximation schemes, Covering, Derandomization, Multi-objective scheduling, Randomized rounding},
+	pages = {400--417},
+}
+
+@misc{drosatos_2007,
+author = {Drosatos, George and Efraimidis, Pavlos and Karakos, Alexandros},
+year = {2007},
+month = {01},
+pages = {},
+title = {Secure Mobile Database Applications: A Case Study}
+}
+
+@article{efraimidis_2003,
+  title={Efficient Approximation Algorithms for Scheduling Unrelated Parallel Machines},
+  author={Efraimidis, Pavlos S and Spirakis, Paul G},
+  year={2003},
+  publisher={Citeseer}
+}
+
+@article{siozios_2002,
+  title={Design and Implementation of a Secure Mobile IP Architecture},
+  author={Siozios, Kostas and Efraimidis, Pavlos and Karakos, Alexandros},
+  year={2002}
+}
+
+@incollection{efraimidis_2001b,
+	address = {Boston, MA},
+	title = {The {Lagrangian} {Search} {Method}},
+	isbn = {978-1-4613-0279-7},
+	url = {https://doi.org/10.1007/978-1-4613-0279-7_15},
+	abstract = {In this work, the Lagrangian Search Method (LSM), an algorithmic framework based on lagrangian relaxation, relaxed decision procedures and binary search, is presented. LSM is used to efficiently extend the class of positive linear programs (PLP), a submodel of linear programming that admits very efficient approximations in sequential, parallel and distributed settings. Theoretical guarantees for the efficiency and the approximation ratio of LSM for extended PLP, are derived. The extended PLP model is used for fast parallel (and sequential) approximations to a class of hard combinatorial optimization problems.},
+	booktitle = {Advances in {Convex} {Analysis} and {Global} {Optimization}: {Honoring} the {Memory} of {C}. {Caratheodory} (1873–1950)},
+	publisher = {Springer US},
+	author = {Efraimidis, Pavlos S. and Spirakis, Paul G.},
+	editor = {Hadjisavvas, Nicolas and Pardalos, Panos M.},
+	year = {2001},
+	doi = {10.1007/978-1-4613-0279-7_15},
+	pages = {283--294},
+}
+
+@incollection{efraimidis_2001a,
+	address = {Boston, MA},
+	title = {Combinatorial {Randomized} {Rounding}: {Boosting} {Randomized} {Rounding} with {Combinatorial} {Arguments}},
+	isbn = {978-1-4757-6594-6},
+	url = {https://doi.org/10.1007/978-1-4757-6594-6_2},
+	abstract = {Randomized Rounding (RR) is a simple and very efficient probabilistic method to convert a solution of a relaxed combinatorial optimization (CO) problem into an approximate solution to the original problem. Since its introduction by Raghavan and Thompson in [14], RR and variations of it have been successfully applied to many approximation algorithms for hard CO problems. Though RR can be applied to an even wider set of problems, often the performance guarantees of the RR based approximation algorithms are poor.},
+	booktitle = {Stochastic {Optimization}: {Algorithms} and {Applications}},
+	publisher = {Springer US},
+	author = {Efraimidis, Pavlos S. and Spirakis, Paul G.},
+	editor = {Uryasev, Stanislav and Pardalos, Panos M.},
+	year = {2001},
+	doi = {10.1007/978-1-4757-6594-6_2},
+	pages = {31--53},
+}
+
+@inproceedings{efraimidis_2000b,
+	address = {Berlin, Heidelberg},
+	title = {Positive {Linear} {Programming} {Extensions}: {Parallel} {Complexity} and {Applications}},
+	isbn = {978-3-540-44520-3},
+	abstract = {In this paper, we propose a general class of linear programs that admit efficient parallel approximations and use it for efficient parallel approximations to hard combinatorial optimization problems.},
+	booktitle = {Euro-{Par} 2000 {Parallel} {Processing}},
+	publisher = {Springer Berlin Heidelberg},
+	author = {Efraimidis, Pavlos S. and Spirakis, Paul G.},
+	editor = {Bode, Arndt and Ludwig, Thomas and Karl, Wolfgang and Wismüller, Roland},
+	year = {2000},
+	pages = {456--460},
+}
+
+@article{efraimidis_2000a,
+author = {Efraimidis, Pavlos and Spirakis, Paul},
+year = {2000},
+month = {02},
+pages = {},
+title = {Randomized Approximation Schemes for Scheduling Unrelated Parallel Machines}
+}
+
+@techreport{efraimidis_1999c,
+  title={Very fast, sequential and parallel, approximations to hard combinatorial optimization problems},
+  author={Efraimidis, Pavlos S and Spirakis, Paul G},
+  year={1999},
+  institution={Technical Report TR99. 06.01, Computer Technology Institute}
+}
+
+@techreport{efraimidis_1999b,
+  title={Fast parallel weighted random sampling},
+  author={Efraimidis, Pavlos S and Spirakis, Paul G},
+  year={1999},
+  institution={Technical report}
+}
+
+@techreport{efraimidis_1999a,
+  title={Fast parallel approximations to positive linear programs with a small number of constraint violations},
+  author={Efraimidis, Pavlos S and Spirakis, Paul G},
+  year={1999},
+  institution={Technical Report TR99. 04.02, Computer Technology Institute}
+}
+
+@inproceedings{efraimidis_1995,
+author = {Efraimidis, P. and Glymidakis, C. and Mamalis, B. and Spirakis, P. and Tampakas, B.},
+title = {Parallel Text Retrieval on a High Performance Supercomputer Using the Vector Space Model},
+year = {1995},
+isbn = {0897917146},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/215206.215332},
+doi = {10.1145/215206.215332},
+booktitle = {Proceedings of the 18th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval},
+pages = {58–66},
+numpages = {9},
+location = {Seattle, Washington, USA},
+series = {SIGIR '95}
+}

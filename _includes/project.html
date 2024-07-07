@@ -1,0 +1,24 @@
+<!-- Project Card -->
+<div class="project-card">
+    <h3 class="project-title">{{ include.title }}</h3>
+    <div class="project-box-content">
+        <span style="display:block;"><i class="fa fa-calendar-days"></i> {{ include.date }}</span>
+        <span style="display:block; width: 200px; height: 60px;"><i class="fa fa-tags"></i> {{ include.tags }}</span>
+        <span class="learn-more-btn">Learn More</span>
+    </div>
+</div>
+
+<!-- Project Modal -->
+<div class="project-modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1>{{ include.title }}</h1>
+        <span style="font-size: 22px;"><b>Description:</b></span>
+        <p>{{ include.description }}</p>
+        <span style="display:block;"><em><b>Duration:</b> {{ include.date }}</em></span>
+        {% if include.url %}
+        <a href="{{ include.url }}" target="_blank"><span class="visit-project-page"><i class="fa fa-globe"></i> Project Website</span></a>
+        {% endif %}
+    </div>
+</div>

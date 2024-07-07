@@ -1,0 +1,329 @@
+/*
+ Theme Name:   Editor Extended
+ Theme URI:    https://euclid.ee.duth.gr/
+ Description:  An Editor child theme
+ Author:       James
+ Author URI:   http://www.james.gr/
+ Template:     editor
+ Version:      1.0.0
+*/
+
+/* Basic modifications */
+
+a {
+  color: #105289;
+}
+
+a:hover {
+  color: #BC2A4D;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 2%;
+}
+
+h1:not(:first-child),
+h2:not(:first-child),
+h3:not(:first-child),
+h4:not(:first-child),
+h5:not(:first-child),
+h6:not(:first-child) {
+  margin-top: 3%;
+}
+
+.button,
+.button:focus,
+.button:active {
+  color: #fff;
+}
+
+.content-area {
+  max-width: none;
+}
+
+.entry-content {
+  width: 100%;
+}
+
+.site-footer {
+  display: none !important;
+}
+
+citation * {
+  display: inline;
+}
+
+/* Condensed Font */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.button,
+#page #infinite-handle span,
+.main-navigation a,
+.post-navigation .nav-next,
+.post-navigation .nav-previous,
+.comment-cite,
+.site-title,
+.entry-title {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* Normal Font */
+
+body,
+button,
+input,
+select,
+textarea,
+.post-navigation .meta-nav,
+.widget-area .widget_search .search-field,
+.comment-time,
+.comment-edit-link,
+.comment-reply-title small a,
+.logged-in-as,
+.comment-notes,
+.wp-caption-text,
+.gallery-caption,
+.site-description,
+.site-footer,
+.entry-date,
+.taxonomy-description,
+.meta-list,
+.entry-content {
+  font-family: "Arimo", sans-serif;
+}
+
+/* Monospace Font */
+
+pre,
+code,
+kbd,
+tt,
+var {
+  font-family: 'Fira Mono', monospace;
+  font-weight: 500;
+}
+
+/* Social Link Icons on Dark Theme */
+
+.dark .social-links ul a {
+  background: #ffffff;
+}
+
+.dark .social-links ul a:before {
+  color: #404040;
+  font-size: 22px;
+}
+
+.dark .social-links ul a:hover {
+  background: #c5c5c5;
+}
+
+/* Researchgate Icon */
+
+.social-links ul a[href*='researchgate.net']:before {
+  font-family: academicons;
+  content: '\e95e';
+}
+
+/* Content-width and full-width tables with horizontal scroll bars */
+
+.content-width-table,
+.full-width-table {
+  overflow-x: auto;
+  margin-bottom: 5%;
+}
+
+.content-width-table table {
+  width: fit-content;
+  margin-bottom: 0%;
+}
+
+.full-width-table table {
+  width: 100%;
+  margin-bottom: 0%;
+}
+
+@media (max-width: 768px) {
+  .full-width-table table {
+    white-space: nowrap;
+  }
+
+  .content-width-table table {
+    white-space: nowrap;
+  }
+}
+
+/* Helper class that is currently used in the show/hide menu script */
+
+.hidden {
+  display: none;
+}
+
+/* Back to top button style */
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+#particles-js {
+  position: absolute;
+  width: 70%;
+  height: 75%;
+  z-index: -100;
+}
+
+/* Site Logo Style */
+.dark .site-logo {
+  filter: brightness(0) saturate(100%) invert(94%) sepia(81%) saturate(0%) hue-rotate(66deg) brightness(106%) contrast(101%);
+}
+
+.site-logo {
+  max-width: 95%;
+  height: auto;
+  margin-left:auto;
+	margin-right:auto;
+}
+
+
+/* Rerormed Menu Structure */
+/* Sidebar Padding */
+.site-header {
+  padding: 30px 2% 2% 2%;
+}
+
+/* Sidebar Text Font Size */
+.main-navigation a {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+/* New social links style */
+.social-links ul a {
+  min-height: 40px;
+  min-width: 40px;
+  line-height: 40px;
+  border-radius: 33%;
+}
+
+.social-links ul a:hover {
+  border-radius: 50%;
+}
+
+.social-links {
+  padding-top: 40;
+}
+
+.bottom-line {
+  position: relative;
+  bottom: 0.5px;
+  border: none;
+  height: 0.5px;
+  background: #383F49;
+  width: 75%;
+}
+
+.dark .bottom-line{
+  background: white;
+}
+
+
+/* Collapsible sidebar menu for small screens */
+.site-logo-mini{
+  display: none;
+}
+
+.header-inner{
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bars{
+  font-size: 26px;
+  color: rgb(255, 255, 255);
+  visibility: hidden;
+  cursor: pointer;
+  transition: color 0.6s ease;
+}
+.bars:hover{
+  color: #f3cc77;
+}
+
+.mobile-menu{
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: #383F49;
+  opacity: 0;
+}
+@media (max-width: 768px) {
+  .bars{
+    display: block;
+    visibility: visible;
+    float: right;
+  }
+  
+  .menu-inner{
+    display: none;
+  }
+  
+  .active{
+  left: 0;
+  padding-top: 30%;
+  padding-left: 10%;
+  opacity: 1;
+  pointer-events: auto;
+  transition: left 0.6s ease-in-out;
+  }
+
+  .site-logo{
+    display: none;
+  }
+
+  .site-logo-mini{
+    display: block;
+    max-width: 75%;
+    height: auto;
+    padding-left: 2%;
+  }
+
+  .site-header{
+    padding: 2% 2% 2% 2%;
+  }
+
+  .social-links {
+    position: relative;
+    padding-top: 0;
+  }
+}

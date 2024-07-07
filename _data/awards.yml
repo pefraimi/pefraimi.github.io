@@ -1,0 +1,19 @@
+- title: NeuIPS 2023
+  description: "Machine Unlearning Challenge by Google"
+  url: 'https://euclid.ee.duth.gr/machine-unlearning/'
+  place: 6
+
+- title: ML in 5G 2022
+  description: "Federated Learning Challenge by ITU"
+  url: 'https://euclid.ee.duth.gr/federated-traffic/'
+  place: 1
+
+- title: IFMBE 2022
+  description: "Machine Learning Challenge by IFMBE"
+  url: 'https://euclid.ee.duth.gr/ifmbe/'
+  place: 1
+
+- title: TREC 2013
+  description: "Text Retrieval Challenge by NIST"
+  url: 'https://euclid.ee.duth.gr/trec/'
+  place: 2

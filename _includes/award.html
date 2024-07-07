@@ -1,0 +1,21 @@
+<div class="award-card">
+    <div class="award-card-image">
+        {% if include.place == 1 %}
+        <img src="/assets/awards/place_1.png">
+        {% elsif include.place == 2 %}
+        <img src="/assets/awards/place_2.png">
+        {% elsif include.place == 3 %}
+        <img src="/assets/awards/place_3.png">
+        {% else %}
+        <img src="/assets/awards/any_place.png">
+        {% endif %}
+    </div>
+
+    <div class="award-card-content">
+        <div class="award-card-title">{{ include.title }}</div>
+        <div class="award-card-description">{{ include.description }}</div>
+        <div class="award-card-btn">
+            <a href="{{ include.url }}"><button type="button"> Learn More </button></a>
+        </div>                            
+    </div>
+</div>

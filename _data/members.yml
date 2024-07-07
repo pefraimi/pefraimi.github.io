@@ -1,0 +1,129 @@
+active_members:
+  - name: Pavlos Efraimidis
+    title: Professor
+    image: /assets/people/pefraimi.jpg
+    interests: Algorithms, Algorithmic Aspects of Privacy, Social Network Analysis, Federated Machine Learning
+    bio: Pavlos S. Efraimidis is a Professor of Computer Science at the Dept. of Electrical and Computer Engineering of the Democritus University of Thrace (Greece). He received his PhD in Informatics in 2000 from the University of Patras and the diploma of Computer Engineering and Informatics from the same university in 1995. His main work is on algorithms and his current research interests are in the fields of design and analysis of algorithms, graph theory and network analysis, federated machine learning, algorithmic game theory, and algorithmic aspects of privacy. In the context of recent research projects he applies algorithmic techniques for graph analysis, social network analysis, federated machine learning and blockchain applications. He has published over 65 refereed technical papers and book chapters, and has participated in over 15 national and European research projects. He is a member of ACM, IEEE and EATCS. His is affiliated with the Athena Research Center. His past industrial experience includes working as a computer engineer in the high-performance computing field (Parsytec Computer GmbH, Aachen, Germany) and in the financial sector (ASYK - Athens Stock Exchange, Athens, Greece).
+    mail: pefraimi@ee.duth.gr
+    web: https://euclid.ee.duth.gr
+    linkedin: https://www.linkedin.com/in/pavlos-efraimidis-9807b8/
+    github: https://github.com/pefraimi
+    researchgate: https://www.researchgate.net/profile/Pavlos-Efraimidis
+
+  - name: Vasileios Perifanis
+    title: PhD student
+    image: /assets/people/vperifan.png
+    interests: Federated Learning, Privacy, Cryptography, Computer Security
+    bio: I was born in Komotini, Greece at 29 November 1995. I graduated from the Department of Informatics of Ionian University in 2017 and I acquired a Master’s degree from the Department of Information & Communication Systems Engineering of the University of the Aegean in 2020. I am currently a PhD Student at the Department of Electrical and Computer Engineering of the Democritus University of Thrace, under the advisory of Prof. Pavlos Efraimidis.
+    mail: vperifan@ee.duth.gr
+    github: https://github.com/vasilisprf
+    researchgate: https://www.researchgate.net/profile/Vasileios-Perifanis-2
+
+  - name: Antonios Chatzitoulousis
+    title: PhD student
+    image: /assets/people/antoni.jpg
+    interests: Algorithms, Graph Databases, Social Network Analysis
+    bio: I was born in Xanthi in northern Greece at 05 June 1965. I received my diploma in Computer Science from the School of Science & Technology of the Hellenic Open University (HOU) in 2006. I also acquired a Master’s degree from the Department of Electrical and Computer Engineering of the Democritus University of Thrace (2015) and a Master’s degree from the Science & Technology School of the Hellenic Open University (HOU) (2016). I am currently a PhD Student under the advisory of Prof. Pavlos Efraimidis and I work as the Head Manager of IT and Planning Department at the Municipality of Xanthi.
+    mail: achatzit@ee.duth.gr
+
+  - name: Andreas Sendros
+    title: PhD student
+    image: /assets/people/sendros.jpg
+    interests: Blockchain, Distributed Ledger Technology
+    bio: I am currently a PhD candidate at the Department of Electrical and Computer Engineering of the Democritus University of Thrace, under the advisory of Prof. Pavlos Efraimidis. I received my diploma in Electrical and Computer Engineering from the Democritus University of Thrace, 2020. My research interests included development of decentralized application, cryptography, efficient computation and privacy in blockchain.
+    mail: asendros@ee.duth.gr
+    web: https://sendrosa.github.io/
+    linkedin: https://www.linkedin.com/in/sendrosandreas/
+    github: https://github.com/sendrosa
+    researchgate: https://www.researchgate.net/profile/Andreas-Sendros
+
+  - name: Eleni Briola
+    title: PhD student
+    image: /assets/people/ebriola.jpg
+    interests: Algorithms, Machine Learning, Privacy, Social Network Analysis
+    bio: I was born in Thessaloniki at 29 January 1994. I received my diploma thesis in Electrical and Computer Engineering from Democritus University of Thrace, Xanthi (Greece) in 2018. In addition, I acquired a Master’s Degree (May 2020) from the same Department and I am currently a PhD student in Department of Electrical and Computer Engineering of Democritus University of Thrace, under the advisory of Prof. Pavlos Efraimidis.
+    mail: ebriola@ee.duth.gr
+    linkedin: https://www.linkedin.com/in/elenibriola/
+    github: https://github.com/helenbr
+    researchgate: https://www.researchgate.net/profile/Helen-Briola-2
+
+  - name: Nikolaos Pavlidis
+    title: PhD Student
+    image: /assets/people/pavlidis.jpg
+    interests: Federated Learning, Graph Neural Networks, Game Theory
+    bio: I was born in Thessaloniki and I received my Diploma with Integrated Master degree in Electrical and Computer Engineering (2022) from the Democritus University of Thrace (DUTh), Greece. I am currently a PhD Student at the same department under the advisory of Prof. Pavlos Efraimidis. My current research interests include Federated Learning, Graph Neural Networks, Graph Embeddings and Machine learning optimization.
+    mail: npavlidi@ee.duth.gr
+    web: https://nikopavl4.github.io/
+    linkedin: https://www.linkedin.com/in/nikopavl4/
+    github: https://github.com/nikopavl4
+    researchgate: https://www.researchgate.net/profile/Nikolaos-Pavlidis-3
+
+  - name: Christos – Chrysanthos Nikolaidis
+    title: PhD Student
+    image: /assets/people/cnikolaidis.jpg
+    interests: Algorithms, Machine Learning, Federated Learning, Privacy, Graph Neural Networks, Life Sciences
+    bio: I was born in Komotini, Greece at 29 August 1981. I receive my diploma in Computer Science from Hellenic Open University in 2016. I acquired a Master’s degree in Specialization in Modern Technologies of Electrical and Computer Engineering from the Department of Electrical and Computer Engineering of the Democritus University of Thrace (2019) and Master’s degree in Applied Mathematics from the Department of Civil Engineering of the Democritus University of Thrace (2022). I am currently a PhD student at the Department of Electrical and Computer Engineering of the Democritus University of Thrace, under the advisory of Prof. Pavlos Efraimidis. 
+    mail: cnikolai@ee.duth.gr
+    web: https://chrisnikolaidis.github.io/
+    linkedin: https://www.linkedin.com/in/ccnikolaidis/
+    github: https://github.com/ChrisNikolaidis
+    researchgate: https://www.researchgate.net/profile/Chris-Chrysanthos-Nikolaidis
+
+  - name: Periklis Kostamis
+    title: PhD Student
+    image: /assets/people/perikost.jpg
+    interests: Blockchain, Distributed Ledger Technology, Distributed File System
+    bio:  I am currently a PhD candidate at the Department of Electrical and Computer Engineering of the Democritus University of Thrace. I obtained his M.Sc. degree in 2023 from the Department of Electrical and Computer Engineering of the Democritus University of Thrace, under the guidance of Professor Pavlos Efraimidis. Prior to that, I completed his degree in Electrical and Computer Engineering from the same university in 2021. My primary research interests are focused on efficient data management in blockchain infrastructures and distributed file systems.
+    mail: perikost@ee.duth.gr
+    web: 
+    linkedin: https://www.linkedin.com/in/periklis-kostamis-89587b222
+    github: https://github.com/perikost
+    researchgate: https://www.researchgate.net/profile/Periklis-Kostamis 
+
+  - name: Theodoros Tsiolakis
+    title: PhD Student
+    image: /assets/people/tsiolakis.jpg
+    interests: Algorithms, Decentralized Machine Learning, Explainable AI, Life Sciences
+    bio: I was born in Ptolemaida and I graduated from Democritus University of Thrace with a degree in Electrical and Computer Engineering. Currently, I'm immersed in pursuing a PhD focused on Decentralized Machine Learning methods applied to Life Sciences Datasets, under the advisory of Prof. Pavlos Efraimidis. My professional journey commenced with a year-long tenure as a full stack developer at Commsquare. During this time, I actively contributed to the development of expansive applications dedicated to gathering and visualizing telecommunication data.
+    mail: theotsio1@ee.duth.gr
+    web: 
+    linkedin: https://www.linkedin.com/in/theodoros-tsiolakis-586a7b154
+    github: https://github.com/TheoTsio
+    researchgate: 
+
+affiliated_members:
+  - name: George Drosatos
+    title: Researcher
+    image: /assets/people/drosatos.jpg
+    interests: Privacy-Enhancing Technologies, Information Security, Blockchain, Biomedical Informatics, Data Mining, Machine Learning
+    bio: George Drosatos is a Researcher at the Institute for Language and Speech Processing, Athena Research Center in Xanthi (Greece). He received his diploma thesis in Electrical and Computer Engineering from Democritus University of Thrace, Xanthi (Greece) in 2006. In addition, he acquired a Master’s degree (March 2010) and a PhD degree (December 2013) both from the Department of Electrical and Computer Engineering of the Democritus University of Thrace. Furthermore, he was a Postdoctoral Fellow (2013-14) at the Institute for Language and Speech Processing, Athena Research Center in Xanthi (Greece). In 2015-16, he was Associate Researcher and Project Manager of CARRE Project at School of Medicine, Democritus University of Thrace in Alexandroupoli. In 2017-18, he was Research Software Engineer in EROGamb Project in the Department of Computing and Informatics, Bournemouth University, UK. In total, he has participated as a researcher in 8 research projects. Dr. Drosatos has interdisciplinary background, and his research interests focus mainly on privacy-enhancing technologies, information security, and eHealth. Last but not least, during the past 5 years (2016-21), he has taught undergraduate and postgraduate courses at the Democritus University of Thrace (DUTH), the International Hellenic University (IHU) and the Neapolis University Pafos (NUP).  More information on his personal website <a href="https://www.drosatos.info" target="_blank">https://www.drosatos.info</a>.
+    web: http://www.drosatos.info/
+    mail: gdrosato@athenarc.gr
+    linkedin: https://www.linkedin.com/in/drosatosgr
+    researchgate: https://www.researchgate.net/profile/George-Drosatos
+
+alumni_members:
+  - name: Giorgos Stamatelatos
+    graduation: 2022
+    thesis_title: Algorithmic analysis of user behavior in social media
+    thesis_link: http://hdl.handle.net/10442/hedi/51007
+
+  - name: Sotirios Gyftopoulos
+    graduation: 2020
+    thesis_title: Analysis of influence on social networks
+    thesis_link: http://hdl.handle.net/10442/hedi/49594
+
+  - name: Remous-Aris Koutsiamanis
+    graduation: 2016
+    thesis_title: Distributed management of competitive access to common resources using algorithmic game theory
+    thesis_link: http://hdl.handle.net/10442/hedi/37381
+
+  - name: Aimilia Tasidou
+    graduation: 2015
+    thesis_title: Personal data utilization and protection through algorithms and protocols for privacy-preserving electronic transactions
+    thesis_link: http://hdl.handle.net/10442/hedi/36413
+
+  - name: Georgios Drosatos
+    graduation: 2013
+    thesis_title: Utilization and protection of personal data in ubiquitous computing environments
+    thesis_link: http://hdl.handle.net/10442/hedi/30085

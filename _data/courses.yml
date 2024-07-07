@@ -1,0 +1,24 @@
+undergraduate_courses:
+- title: ALGORITHMS AND DATA STRUCTURES
+  description: Computational models. Basic concepts of algorithms. Complexity of algorithms. Classes of complexity. Asymptotic approximations and notations. Search and sort. Recursive algorithms. Data structures. Stacks and queues. Linked lists. Basic tree concepts. Tree crossing. Binary search trees. Balanced search trees. Priority queues. Fragmentation. Graph algorithms. Greedy algorithms. Divide and conquer. Dynamic Programming. Design and implementation of algorithms and data structures in Java programming environment.
+  eclass: https://eclass.duth.gr/courses/TMA566/
+  moodle: https://euclid.ee.duth.gr:5000/course/view.php?id=20
+  info: https://www.ee.duth.gr/en/course/algorithms-and-data-structures/
+  semester: 3rd Semester
+
+- title: ALGORITHMS AND COMPLEXITY
+  description: Basic concepts of algorithms. Sort and Search. Computational Models. The Turing Machine and the Random Access Machine. Complexity of Algorithms. Algorithm Design Techniques. Divide and conquer. Regression and De-Regression. Dynamic Programming. Greed. Graph and Tree Algorithms. Algorithms using Randomness. Classes of Complexity. The P and NP classes. Problems complete for class NP. Reductions. Reference to Heuristic Techniques and Approximation Algorithms. Design and implementation of basic Algorithms in modern Programming environments.
+  eclass: https://eclass.duth.gr/courses/TMA420/
+  info: https://www.ee.duth.gr/en/course/algorithms-and-complexity/
+  semester: 8th Semester
+
+postgraduate_courses:
+- title: ALGORITHMIC GAME THEORY
+  description: Basic concepts of Game Theory. Nash equilibrium. Pareto, Stackelberg concepts. Pure and mixed strategies. Games in strategy and extended form. Rationality . Coalitional games. Bayesian Games. Repeated games. Evolutionary Games (evolutionary games). Algorithmic and game complexity issues. Applications of Game Theory in Computer Science . Game -theoretic interpretation of the internet. Internet routing and congestion games. Players and incentives in peer-to-peer and wireless networks.
+  eclass: https://eclass.duth.gr/courses/TMA381/
+  semester: Fall Semester
+
+- title: ALGORITHMIC ASPECTS OF PRIVACY
+  description: What is privacy? Privacy criteria, k-anonymity, differential privacy. Privacy. Legal issues. Privacy. Privacy-Enhancing Technologies. Algorithms and cryptographic protocols for performing calculations while protecting privacy. Identity certification. Anonymity systems. Privacy issues in data mining. Privacy issues in ubiquitous computing. Privacy issues in smart devices. Economic dimension of privacy. Privacy policy implementation issues.
+  eclass: https://eclass.duth.gr/courses/TMA497/
+  semester: Spring Semester

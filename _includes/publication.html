@@ -1,0 +1,9 @@
+{% assign publication = site.data.publications | find: "id", include.id %}
+{% if publication %}
+    {{ publication.authors }} ({{ publication.year }}). {{ publication.title }}. {{ publication.venue }}.
+    {% if publication.url %}
+        <a href="{{ publication.url }}" target="_blank">{{ publication.url }}</a>
+    {% endif %}
+{% else %}
+    <span class='highlight'>Publication not found.</span>
+{% endif %}

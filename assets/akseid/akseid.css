@@ -1,0 +1,23 @@
+/* Styling for figure 2 of the Akseid page using flex. */
+/* The following CSS corresponds to two equal width columns that are bottom aligned. */
+/* Equal width columns are achieved using flex: 1 in the children div. */
+/* This includes a responsive layout, where the images are displayed vertically. */
+/* The breakpoint of the responsive layout is 1024px. */
+
+.akseid-figure-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 4%;
+}
+
+.akseid-figure-flex > div {
+    flex: 1;
+}
+
+@media (max-width: 1024px) {
+    .akseid-figure-flex {
+        flex-direction: column;
+        gap: 1em;
+    }
+}

@@ -1,0 +1,33 @@
+- id: gyftopoulos2020twitter
+  title: A Twitter-based approach of news media impartiality in multipartite political scenes
+  authors: Gyftopoulos, S., Drosatos, G., Stamatelatos, G., & Efraimidis, P. S.
+  year: 2020
+  venue: Social Network Analysis and Mining, Springer, 10(36), 36
+  url: https://doi.org/10.1007/s13278-020-00642-x
+
+- id: stamatelatos2020revealing
+  title: Revealing the political affinity of online entities through their Twitter followers
+  authors: Stamatelatos, G., Gyftopoulos, S., Drosatos, G., & Efraimidis, P. S.
+  year: 2020
+  venue: Information Processing & Management, Springer, 57(2), 102172
+  url: https://doi.org/10.1016/j.ipm.2019.102172
+
+- id: dimitriadis2019much
+  title: How much does a zero-permission Android app know about us?
+  authors: Dimitriadis, A., Drosatos, G., Efraimidis, P. S.
+  year: 2019
+  venue: Proceedings of the Third Central European Cybersecurity Conference (pp. 1-5)
+
+- id: briola2018privacy
+  title: Privacy Leakages about Political Beliefs through Analysis of Twitter Followers
+  authors: Briola, H., Drosatos, G., Stamatelatos, G., Gyftopoulos, S., & Efraimidis, P. S.
+  year: 2018
+  venue: Proceedings of the 22nd Pan-Hellenic Conference on Informatics (PCI 2018) (pp. 1-6). New York, NY, USA ACM
+  url: https://doi.org/10.1145/3291533.3291557
+
+- id: stamatelatos2018deriving
+  title: Deriving the Political Affinity of Twitter Users from Their Followers
+  authors: Stamatelatos, G., Gyftopoulos, S., Drosatos, G., & Efraimidis, P. S.
+  year: 2018
+  venue: Proceedings of the 11th IEEE International Conference on Social Computing
+  url: https://doi.org/10.1109/BDCloud.2018.00173

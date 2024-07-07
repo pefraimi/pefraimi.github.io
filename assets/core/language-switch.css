@@ -1,0 +1,41 @@
+/* Styling for the language switch toggle on the Akseid page */
+
+.lang-switch-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lang-switch {
+    color: gray;
+    align-self: baseline;
+    display: flex;
+    align-items: center;
+    column-gap: 3px;
+    padding: 15px;
+}
+
+/* Add extra padding to the first list item */
+.lang-switch i:first-child {
+    padding-right: 5px;
+}
+
+.lang-switch a.lang-link {
+    color: gray;
+    text-transform: uppercase;
+}
+
+/* Make current language bold */
+.lang-switch a.lang-link.current {
+    font-weight: bold;
+}
+
+@media (max-width:768px) {
+    .lang-switch-container {
+        flex-direction: column-reverse;
+        overflow-wrap: break-word;
+    }
+
+    .lang-switch {
+        padding: 0 0 15px 0;
+    }
+}

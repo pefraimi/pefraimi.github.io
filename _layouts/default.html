@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ site.name }} &ndash; {{ site.description }}</title>
+
+    <link rel="icon" href="/assets/core/favicon.svg" sizes="any" type="image/svg+xml">
+
+    <link rel="stylesheet" href="/assets/core/editor.css">
+    <link rel="stylesheet" href="/assets/core/editor-ex.css">
+    {% if site.sidebar_switch_show %}
+        <link rel="stylesheet" href="/assets/core/toggle-slider.css">
+    {% endif %}
+    <link rel="stylesheet" href="/assets/core/language-switch.css">
+    <link rel="stylesheet" href="/assets/members/member.css">
+    <link rel="stylesheet" href="/assets/courses/courses.css">
+    <link rel="stylesheet" href="/assets/akseid/akseid.css">
+    <link rel="stylesheet" href="/assets/projects/projects.css">
+    <link rel="stylesheet" href="/assets/awards/awards.css">
+    
+    {% if site.sidebar_switch_show %}
+        <script src="/assets/core/toggle-slider.js" defer></script>
+    {% endif %}
+    <script src="/assets/core/navigation.js" defer></script>
+    <script src="/assets/core/back-to-top-btn.js" defer></script>
+    <script src="/assets/core/particles.js" defer></script>
+    <script src="/assets/projects/projects.js" defer></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script> js embedded in local js file-->
+    
+    <!-- See https://github.com/gstamatelat/euclid.ee.duth.gr/issues/97 on FOUT vs FOIT -->
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Mono:wght@500&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css">
+</head>
+
+<body>
+    <header id="masthead" class="site-header {% if site.sidebar_theme == 'dark' %} dark {% endif %} {% if site.sidebar_switch_show %} hidden {% endif %}">
+        <!-- Start Site Branding -->
+        <div class="site-branding">
+            {% if site.logo %}
+                <h1 class="site-logo">
+                    <a href="/"> 
+                        <img class="site-logo" src="{{ site.logo }}" alt="{{ site.name }}">
+                    </a>
+                </h1>
+            {% if site.logo-mini %}
+            <h1 class="site-logo-mini">
+                <a href="/"> 
+                    <img class="site-logo-mini" src="{{ site.logo-mini }}" alt="{{ site.name }}">
+                </a>
+            </h1>
+            {% endif %}
+            {% else %}
+                <h1 class="site-title">
+                    <a href="/">{{ site.name }}</a>
+                </h1>
+                <h2 class="site-description">{{ site.description }}</h2>
+            {% endif %}
+            
+        </div>
+        <!-- End Site Branding -->
+        <i id="bars" class="fas fa-bars bars"></i>
+        <div class="menu-inner">
+        <!-- Start Menu -->
+        <nav id="site-navigation" class="main-navigation">
+            <ul>
+                {% for group in site.menu %}
+                    {% assign m = site.pages | find: "path", group.page %}
+                    <li {% if m and page.path == m.path %} class="current-menu-item" {% endif %}>
+                        {% if m %} <a href="{{ m.url }}">{{ m.title }}</a> {% else %} <a>{{ group.page }}</a> {% endif %}
+                        {% if group.submenu %}
+                            <ul class="sub-menu">
+                                {% for x in group.submenu %}
+                                    {% assign c = site.pages | find: "path", x %}
+                                    <li {% if page.path == c.path %} class="current-menu-item" {% endif %}><a href="{{ c.url }}">{{ c.title }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>
+        <!-- End Menu -->
+
+        <!-- Start Sidebar Theme Switch -->
+        {% if site.sidebar_switch_show %}
+        <div id="theme-button" data-theme="{{ site.sidebar_theme }}">
+            <button class="theme-toggle" id="theme-toggle" title="Toggle sidebar theme">
+                <svg class="sun-and-moon" width="24" height="24" viewBox="0 0 24 24">
+                <mask class="moon" id="moon-mask">
+                    <rect x="0" y="0" width="100%" height="100%" fill="white" />
+                    <circle cx="24" cy="10" r="6" fill="black" />
+                </mask>
+                <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor" />
+                <g class="sun-beams" stroke="currentColor">
+                    <line x1="12" y1="1" x2="12" y2="3" />
+                    <line x1="12" y1="21" x2="12" y2="23" />
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                    <line x1="1" y1="12" x2="3" y2="12" />
+                    <line x1="21" y1="12" x2="23" y2="12" />
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                </g>
+                </svg>
+            </button>
+        </div>
+    {% endif %}
+    <!-- End Sidebar Theme Switch -->   
+    <!-- Social icons -->
+    <div class="social-links">
+        <hr class="bottom-line">
+        <ul id="menu-social" class="menu">
+            {% if site.team_researchgate_link %}
+                <li><a href="{{ site.team_researchgate_link }}" target="_blank"></a></li>
+            {% endif %}
+            {% if site.team_github_link %}
+                <li><a href="{{ site.team_github_link }}" target="_blank"></a></li>
+            {% endif %}
+            <li><a href="mailto: pefraimi@ee.duth.gr" target="_blank"></a></li>
+        </ul>
+    </div>
+    <!-- End Social icons -->
+    </div>
+    </header>
+
+    <!-- Mobile Menu only visible on small screens -->
+    <div id="mobileMenu" class="dark mobile-menu">
+        <nav id="site-navigation" class="dark main-navigation">
+            <ul>
+                {% for group in site.menu %}
+                    {% assign m = site.pages | find: "path", group.page %}
+                    <li {% if m and page.path == m.path %} class="current-menu-item" {% endif %}>
+                        {% if m %} <a href="{{ m.url }}">{{ m.title }}</a> {% else %} <a>{{ group.page }}</a> {% endif %}
+                        {% if group.submenu %}
+                            <ul class="sub-menu">
+                                {% for x in group.submenu %}
+                                    {% assign c = site.pages | find: "path", x %}
+                                    <li {% if page.path == c.path %} class="current-menu-item" {% endif %}><a href="{{ c.url }}">{{ c.title }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>
+        <!-- End Menu -->   
+    <!-- Social icons -->
+    <div class="social-links">
+        <hr class="bottom-line">
+        <ul id="menu-social" class="menu">
+            {% if site.team_researchgate_link %}
+                <li><a href="{{ site.team_researchgate_link }}" target="_blank"></a></li>
+            {% endif %}
+            {% if site.team_github_link %}
+                <li><a href="{{ site.team_github_link }}" target="_blank"></a></li>
+            {% endif %}
+            <li><a href="mailto: pefraimi@ee.duth.gr" target="_blank"></a></li>
+        </ul>
+    </div>
+    <!-- End Social icons -->
+</div>
+<!-- End Mobile Menu only visible on small screens -->
+
+    <div id="content" {% if page.lang %} lang="{{ page.lang }}" {% endif %} class="site-content fadeInFast">
+        <header class="entry-header">
+            <div class="lang-switch-container">
+                <h1 class="entry-title">
+                    {% if page.back %}
+                        <a href="{% link {{ page.back }} %}"><i class="fa fa-sm fa-arrow-circle-left"></i></a>
+                    {% endif %}
+                    {{ page.title }}
+                </h1>
+                <!-- start: language switch -->
+                {% if page.languages %}
+                    <div class="lang-switch">
+                        <i class="fa fa-lg fa-earth"></i>
+                        {% for language in page.languages %}
+                            {% if page.path == language.page %}
+                                <a class="lang-link current">{{ language.lang }}</a>
+                            {% else %}
+                                <a href="{% link {{ language.page }} %}" class="lang-link">{{ language.lang }}</a>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                {% endif %}
+                <!-- end: language switch -->
+            </div>
+        </header>
+
+        <div class="entry-content">
+            {{ content }}
+        </div>
+    </div>
+
+    <!-- Back to top button -->
+    <button type="button" class="btn" id="btn-back-to-top" title="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+<script>
+    const bars = document.getElementById('bars');
+const mobileMenu = document.getElementById('mobileMenu');
+bars.addEventListener('click', function() {
+  mobileMenu.classList.toggle('active')
+})
+</script>
+</html>

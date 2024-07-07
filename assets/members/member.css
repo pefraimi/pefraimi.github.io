@@ -1,0 +1,91 @@
+/*
+ Theme Name:   Editor Extended for Members
+ Theme URI:    https://euclid.ee.duth.gr/
+ Description:  An Editor child theme
+ Author:       Nikolaos Pavlidis
+ Template:     editor
+ Version:      1.0.0
+*/
+
+/* Basic modifications */
+
+.member-box {
+    margin-bottom: 3%;
+    padding: 5% 6%;
+    background: #f9f9f9;
+    gap: 4%;
+    display: flex;
+}
+
+.member-box .left-side-box {
+    float: left;
+    text-align: center;
+    width: 120px;
+    flex-shrink: 0;
+}
+
+.member-box .left-side-box .image-wrap {
+    margin-bottom: 5%;
+}
+
+.member-box .left-side-box .image-wrap .member-icon {
+    font-size: 120px;
+}
+
+.member-box .left-side-box .image-wrap .member-photo {
+    margin: 0 auto;
+    border-radius: 50%;
+    display: block;
+}
+
+.member-box .left-side-box .member-socials {
+    margin: 0 0.1em;
+    display: inline;
+}
+
+.member-box .right-side-box {
+    overflow: hidden;
+}
+
+.member-box .right-side-box .right-side {
+    margin-bottom: 1%;
+}
+
+.member-box .right-side-box .right-side .name-wrap {
+    display: inline;
+}
+
+.member-box .right-side-box .right-side .member-flask {
+    float: left;
+    line-height: 1.5;
+    margin: 0 2%;
+}
+
+.member-box .right-side-box .right-side .interests-wrap {
+    font-style: italic;
+    overflow: hidden;
+}
+
+.member-box .right-side-box .bio-wrap {
+    text-align: justify;
+    color: #888;
+}
+
+@media (max-width: 768px) {
+    .member-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    div.member-box>* {
+        align-self: center;
+    }
+
+    .member-box .right-side-box .right-side {
+        text-align: center;
+    }
+
+    .member-box .right-side-box .right-side .member-flask {
+        display: none;
+    }
+}

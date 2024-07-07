@@ -1,0 +1,61 @@
+/* Courses Custom Box CSS */
+
+.course-title {
+  background-color: #30353c;
+  color: white;
+  padding: 18px;
+  margin-top: 3%;
+  margin-bottom: 0%;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.courses-box-content {
+  padding: 20px 25px 20px 25px;
+  background-color: #f1f1f1;
+}
+
+.course-more {
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+}
+
+.course-more .course-links {
+  display: flex;
+  gap: 5px;
+}
+
+.course-more .course-links>a {
+  display: contents;
+}
+
+.course-more .course-links .course-links-image {
+  height: 26px;
+  width: 26px;
+}
+
+.course-more .course-links .course-links-image:hover {
+  filter: opacity(80%)
+}
+
+.course-more .course-links .course-info {
+  font-size: 26px;
+  color: #383F49;
+}
+
+.course-more .course-links .course-info:hover {
+  filter: opacity(80%)
+}
+
+.course-more .course-semester {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .course-title {
+    text-align: center;
+  }
+}

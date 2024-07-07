@@ -1,0 +1,32 @@
+include: ['_pages']
+exclude: ['README.md', 'CNAME']
+
+name: 'Euclid'
+description: 'The Algorithms and Privacy Research Unit of the Programming and Data Processing Lab, Democritus University of Thrace'
+
+menu:
+  - page: _pages/index.md
+  - page: _pages/people.md
+  - page: _pages/publications.md
+  - page: _pages/projects.md
+  - page: _pages/awards.md
+  - page: _pages/courses.md
+  - page: _pages/education.md
+  - page: _pages/contact.md
+
+sidebar_theme: dark
+sidebar_switch_show: False
+SidebarThemeStorageKey: sidebar_theme_key
+team_researchgate_link: https://www.researchgate.net/lab/Euclid-the-Algorithms-and-Privacy-Research-Unit-Pavlos-S-Efraimidis
+team_github_link: https://github.com/euclid-team
+logo: /assets/core/euclid-logo-black.svg
+logo-mini: /assets/core/euclid-logo-mini.svg
+
+scholar:
+  bibliography_template: bibtemplate 
+  style: apa-no-doi-no-issue
+  source: _bibliography
+  sort_by: none
+  order: descending
+  bibliography_list_tag: ul
+  repository: publications

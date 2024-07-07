@@ -1,0 +1,44 @@
+---
+---
+{{reference}}
+{% if entry.doi %}
+<a href="http://dx.doi.org/{{entry.doi}}">{{entry.doi}}</a>
+{% endif %}
+
+<br>
+<span><a class="button" id="b_{{key}}-bibtex" style='line-height:3;white-space:nowrap;' onclick="showDiv('{{key}}-bibtex')"><i class='fa-solid fa-book' style='margin-right:0.5em;'></i>BibTeX</a></span>
+
+{% if entry.abstract %}
+<span><a class="button" id="b_{{key}}-abstract" style='line-height:3;white-space:nowrap;' onclick="showDiv('{{key}}-abstract')"><i class='fas fa-paperclip' style='margin-right:0.5em;'></i>Abstract</a></span>
+{% endif %}
+
+{% if links['pdf'] %}
+<span><a class='button' style='line-height:3;white-space:nowrap;' href="{{links['pdf']}}"><i class="fas fa-file-pdf" style='margin-right:0.5em;'></i>Download PDF</a></span>
+{% endif %}
+
+{% if links['zip'] %}
+<span><a class='button' style='line-height:3;white-space:nowrap;' href="{{links['zip']}}"><i class='fa-solid fa-file-zipper' style='margin-right:0.5em;'></i>Download Dataset</a></span>
+{% endif %}
+
+{% if entry.github %}
+<span><a class='button' style='line-height:3;white-space:nowrap;' href="{{entry.github}}"><i class='fa-brands fa-github' style='margin-right:0.5em;'></i>GitHub</a></span>
+{% endif %}
+
+<div class="dropDownAbstract" id="{{key}}-abstract" style="display:none">
+{{entry.abstract}}
+</div>
+
+<div class="dropDownBibtex" id="{{key}}-bibtex" style="display:none">
+<pre>{{entry.bibtex}}</pre>
+</div>
+
+<script>
+    function showDiv(toggle) {
+        if(document.getElementById(toggle).style.display == "none"){
+            document.getElementById(toggle).style.display = "block";
+        }
+        else{
+            document.getElementById(toggle).style.display = "none";
+        }
+    }
+</script>

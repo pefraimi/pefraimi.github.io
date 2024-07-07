@@ -1,0 +1,101 @@
+/*
+ Theme Name:   Editor Extended
+ Theme URI:    https://euclid.ee.duth.gr/
+ Description:  An Editor child theme
+ Author:       James
+ Author URI:   http://www.james.gr/
+ Template:     editor
+ Version:      1.0.0
+*/
+ 
+/* Include base style */
+@import url("../editor/style.css");
+
+/* Basic modifications */
+a {
+	color: #105289;
+}
+
+a:hover {
+	color: #BC2A4D;
+}
+
+a, a:hover, a:focus, a:active {
+	outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 2%;
+}
+
+h1:not(:first-child),
+h2:not(:first-child),
+h3:not(:first-child),
+h4:not(:first-child),
+h5:not(:first-child),
+h6:not(:first-child) {
+	margin-top: 3%;
+}
+
+.button,
+.button:focus,
+.button:active {
+	color: #fff;
+}
+
+.content-area {
+	max-width: none;
+}
+
+.entry-content {
+	width: 100%;
+}
+
+.site-footer {
+	display: none !important;
+}
+
+citation * {
+	display: inline;
+}
+
+/* WPFront Scroll Top */
+#wpfront-scroll-top-container {
+    transition: opacity 0.2s ease-out;
+}
+
+/* Condensed Font */
+h1, h2, h3, h4, h5, h6,
+blockquote,
+button, input[type="button"], input[type="reset"], input[type="submit"], .button, #page #infinite-handle span,
+.main-navigation a,
+.post-navigation .nav-next, .post-navigation .nav-previous,
+.comment-cite,
+.site-title,
+.entry-title {
+	font-family: "Roboto Condensed", sans-serif;
+}
+
+/* Normal Font */
+body, button, input, select, textarea,
+.post-navigation .meta-nav,
+.widget-area .widget_search .search-field,
+.comment-time, .comment-edit-link,
+.comment-reply-title small a,
+.logged-in-as, .comment-notes,
+.wp-caption-text, .gallery-caption,
+.site-description,
+.site-footer,
+.entry-date,
+.taxonomy-description,
+.meta-list,
+.entry-content {
+	font-family: "Arimo", sans-serif;
+}
+
+/* Monospace Font */
+pre,
+code, kbd, tt, var {
+	font-family: 'Fira Mono', monospace;
+	font-weight: 500;
+}
